@@ -1,0 +1,15 @@
+.cusineTypes {
+  text-align: center;
+  button {
+    border: none;
+    background-color: orangered;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0px 5px 30px 5px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

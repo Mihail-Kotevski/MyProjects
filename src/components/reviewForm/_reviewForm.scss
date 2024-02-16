@@ -1,0 +1,21 @@
+.ReviewForm {
+  padding-bottom: 30px;
+  form {
+    display: flex;
+    flex-direction: column;
+    label {
+      font-weight: bold;
+    }
+    input {
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+    button {
+      background-color: green;
+      padding: 10px;
+      color: white;
+      border: none;
+      border-radius: 3px;
+    }
+  }
+}

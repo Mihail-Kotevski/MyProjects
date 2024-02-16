@@ -1,0 +1,29 @@
+@use "./components/navbar/navbar";
+@use "./components/footer/footer";
+@use "./components/restaurantCard/restaurantCard";
+@use "./components/allRestaurants/allRestaurants";
+@use "./components/cousines/cusines";
+@use "./components/mostPopularRestaurants/mostPopularRestaurants";
+@use "./components/surpriseRestaurant/surpriseRestaurant";
+@use "./components/restaurantDetailCard/restaurantDetailCard";
+@use "./components/cuisineDetails/cuisineDetails";
+@use "./components/restaurantDetail/restaurantDetail";
+@use "./components/reviewForm/reviewForm";
+@use "./components/randomRestourant/randomRestourant";
+@use "./components/favoriteRestaurants/favoriteRestaurants";
+@use "./components/favoriteResCard/favRestourantcard";
+@use "./components/notFound/notFound";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
