@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brainster Lab</title>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <!-- BOOTSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/6da82ce649.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- LOCAL MAIN CSS-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- BOOTSTRAP ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- --NAVBAR -->
+    <nav class="navbar navbar-expand-md shadow yellow">
+      <div class="container-fluid">
+        <a
+          href="https://brainster.co/"
+          target="_blank"
+          class="navbar-brand text-center ms-4 me-0"
+          ><img
+            src="./images/Logo.png"
+            width="35px"
+            class="img-fluid pt-1"
+            alt=""
+          />
+          <p class="m-0" id="logo">BRAINSTER</p></a
+        >
+        <button
+          class="navbar-toggler border-0 shadow-none toggler-button"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="span span-one"></span>
+          <span class="span span-two"></span>
+          <span class="span span-three"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end w-100 bg-dark"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close ms-auto bg-light"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div
+              class="navbar-nav justify-content-end flex-grow-1 pe-3 mx-auto"
+            >
+              <ul class="navbar-nav mb-2 mb-lg-0" id="list">
+                <li class="nav-item fw-bold pe-md-4 pt-4 pt-md-0 me-auto">
+                  <a
+                    class="text-decoration-none"
+                    href="https://brainster.co/marketing/?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAj0q_XIfoDbt5o3isevOF4-nKARfuCK_dOLkJor9-Sd1woEEcdHHDQaAoWoEALw_wcB"
+                    target="_blank"
+                    >Академија за Маркетинг</a
+                  >
+                </li>
+                <li class="nav-item fw-bold pe-md-4 pt-4 pt-md-0" me-auto>
+                  <a
+                    class="text-decoration-none"
+                    href="https://brainster.co/full-stack/"
+                    target="_blank"
+                    >Академија за Програмирање</a
+                  >
+                </li>
+                <li class="nav-item fw-bold pe-md-4 pt-4 pt-md-0 me-auto">
+                  <a
+                    class="text-decoration-none"
+                    href="https://brainster.co/data-science/?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAjIqe8LB8VMbFYHOSIhhKHHE6e0T1cpGQXmCTFNLvs78CmcRcl14bEaAiAoEALw_wcB"
+                    target="_blank"
+                    >Академија за Data-science</a
+                  >
+                </li>
+                <li class="nav-item fw-bold pe-md-5 pt-4 pt-md-0 me-auto">
+                  <a
+                    class="text-decoration-none"
+                    href="https://brainster.co/graphic-design/?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAgaoQcmsCNszr8dOLD2xcSvEIvOWZlozR7Z_Y1V5mGOa1ga0ZNs-ZcaAqBoEALw_wcB"
+                    target="_blank"
+                    >Академија за Дизајн</a
+                  >
+                </li>
+              </ul>
+              <a
+                href="formPage.html"
+                class="btn text-light fw-bold mt-4 mt-md-0 py-1 px-2 ms-2 red"
+                id="vraboti-student"
+                >Вработи наш студент</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Banner -->
+    <div class="container-fluid" id="banner">
+      <div class="w-100 h-100" id="header-Cont">
+        <div id="header">
+          <h1>
+            <span class="span1">B</span><span class="span2">R</span
+            ><span class="span3">A</span><span class="span4">I</span
+            ><span class="span5">N</span><span class="span6">S</span
+            ><span class="span7">T</span><span class="span8">E</span
+            ><span class="span9">R</span>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- Filters -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 coding fw-bold active-hover-marketing">
+          <label
+            class="w-100 h-100 d-flex align-items-center justify-content-between py-4"
+            for="marketing"
+            >Проекти на студенти по академијата за маркетинг
+            <input
+              type="checkbox"
+              name="marketing"
+              id="marketing"
+              class="d-none"
+            />
+            <i class="bi bi-check-circle-fill text-dark h4 m-0"></i>
+          </label>
+        </div>
+        <div class="col-md-4 fw-bold active-hover-coding">
+          <label
+            class="w-100 h-100 d-flex align-items-center justify-content-between py-4"
+            for="coding"
+            >Проекти на студенти по академијата за програмирање
+            <input type="checkbox" name="coding" id="coding" class="d-none" />
+            <i class="bi bi-check-circle-fill text-dark h4 m-0"></i>
+          </label>
+        </div>
+        <div class="col-md-4 fw-bold active-hover-design text-start">
+          <label
+            class="w-100 h-100 d-flex align-items-center justify-content-between py-4"
+            for="design"
+            >Проекти на студенти по академијата за дизајн
+            <input type="checkbox" name="design" id="design" class="d-none" />
+            <i class="bi bi-check-circle-fill text-dark h4 m-0"></i>
+          </label>
+        </div>
+      </div>
+    </div>
+    <!-- Cards -->
+    <div class="container-fluid py-4 yellow">
+      <div class="row">
+        <div class="col text-center">
+          <p class="h1 fw-bold">Проекти</p>
+        </div>
+      </div>
+      <div class="row justify-content-center py-4">
+        <div class="col-md-8">
+          <div class="row justify-content-center">
+            <div class="col-11 col-sm-6 py-3 col-md-4 hide-cards coding cards">
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/Untitled12.png"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Програмирање
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/full-stack/"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-sm-6 py-3 col-md-4 hide-cards coding cards">
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/Untitled9.png"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Програмирање
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/full-stack/"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-sm-6 py-3 col-md-4 hide-cards coding cards">
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/Untitled11.png"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Програмирање
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/full-stack/"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-sm-6 py-3 col-md-4 hide-cards coding cards">
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/Untitled8.png"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Програмирање
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/full-stack/"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-sm-6 py-3 col-md-4 hide-cards coding cards">
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/coding1.png"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Програмирање
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/full-stack/"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-sm-6 py-3 col-md-4 hide-cards coding cards">
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/cd5.jpg"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Програмирање
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/full-stack/"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-sm-6 py-3 col-md-4 hide-cards coding cards">
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/cd2.jpg"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Програмирање
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/full-stack/"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-sm-6 py-3 col-md-4 hide-cards coding cards">
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/cd6.jpg"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Програмирање
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/full-stack/"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-sm-6 py-3 col-md-4 hide-cards coding cards">
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/cd3.png"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Програмирање
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/full-stack/"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-11 col-sm-6 py-3 col-md-4 hide-cards coding cards show-more"
+            >
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/cd4.webp"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Програмирање
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/full-stack/"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-11 col-sm-6 py-3 col-md-4 hide-cards marketing cards show-more"
+            >
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/m1.jpg"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Маркетинг
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/marketing/?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAj0q_XIfoDbt5o3isevOF4-nKARfuCK_dOLkJor9-Sd1woEEcdHHDQaAoWoEALw_wcB"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-11 col-sm-6 py-3 col-md-4 hide-cards marketing cards show-more"
+            >
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/m2.jpg"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Маркетинг
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/marketing/?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAj0q_XIfoDbt5o3isevOF4-nKARfuCK_dOLkJor9-Sd1woEEcdHHDQaAoWoEALw_wcB"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-11 col-sm-6 py-3 col-md-4 hide-cards marketing cards show-more"
+            >
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/m3.jpg"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Маркетинг
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/marketing/?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAj0q_XIfoDbt5o3isevOF4-nKARfuCK_dOLkJor9-Sd1woEEcdHHDQaAoWoEALw_wcB"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-11 col-sm-6 py-3 col-md-4 hide-cards marketing cards show-more"
+            >
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/Untitled5.png"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Маркетинг
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/marketing/?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAj0q_XIfoDbt5o3isevOF4-nKARfuCK_dOLkJor9-Sd1woEEcdHHDQaAoWoEALw_wcB"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-11 col-sm-6 py-3 col-md-4 hide-cards marketing cards show-more"
+            >
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/Untitled6.png"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Маркетинг
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/marketing/?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAj0q_XIfoDbt5o3isevOF4-nKARfuCK_dOLkJor9-Sd1woEEcdHHDQaAoWoEALw_wcB"
+                      target="_blank"
+                      class="btn red float-end my-3 text-light"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-11 col-sm-6 py-3 col-md-4 hide-cards marketing cards show-more"
+            >
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/Untitled4.png"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Маркетинг
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/marketing/?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAj0q_XIfoDbt5o3isevOF4-nKARfuCK_dOLkJor9-Sd1woEEcdHHDQaAoWoEALw_wcB"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-11 col-sm-6 py-3 col-md-4 hide-cards design cards show-more"
+            >
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/Untitled.png"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Дизајн
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/graphic-design/?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAgaoQcmsCNszr8dOLD2xcSvEIvOWZlozR7Z_Y1V5mGOa1ga0ZNs-ZcaAqBoEALw_wcB"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-11 col-sm-6 py-3 col-md-4 hide-cards design cards show-more"
+            >
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/d1.jpg"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Дизајн
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/graphic-design/?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAgaoQcmsCNszr8dOLD2xcSvEIvOWZlozR7Z_Y1V5mGOa1ga0ZNs-ZcaAqBoEALw_wcB"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-11 col-sm-6 py-3 col-md-4 hide-cards design cards show-more"
+            >
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/c2.png"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Дизајн
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/graphic-design/?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAgaoQcmsCNszr8dOLD2xcSvEIvOWZlozR7Z_Y1V5mGOa1ga0ZNs-ZcaAqBoEALw_wcB"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-11 col-sm-6 py-3 col-md-4 hide-cards design cards show-more"
+            >
+              <div class="card shadow">
+                <img
+                  class="card-img-top"
+                  src="./images/Untitled2.png"
+                  height="200px"
+                />
+                <div class="card-body">
+                  <p class="fw-bold d-inline-block py-1 px-2 yellow">
+                    Академија за Дизајн
+                  </p>
+                  <p class="h5 fw-bold">
+                    Име на проектот стои овде во две линии
+                  </p>
+                  <p class="card-text">
+                    Краток опис во кој студентите ќе можат да опишат за што се
+                    работи во проектот
+                  </p>
+                  <small class="fw-bold">Април - Октомври 2019</small>
+                  <div>
+                    <a
+                      href="https://brainster.co/graphic-design/?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAgaoQcmsCNszr8dOLD2xcSvEIvOWZlozR7Z_Y1V5mGOa1ga0ZNs-ZcaAqBoEALw_wcB"
+                      target="_blank"
+                      class="btn float-end my-3 text-light red"
+                      >Дознај повеќе...</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="show-more">
+              <div>
+                <div class="text-center">
+                  <button
+                    href=""
+                    class="btn button red text-light"
+                    id="load-button"
+                  >
+                    Load More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="container-fluid bg-dark text-light">
+      <div class="row text-center py-4">
+        <div class="col">
+          <span class="fw-bold"
+            >Изработено од
+            <i
+              class="fa-solid fa-heart fa-bounce fa-2xl"
+              style="color: red"
+            ></i>
+            од Михаил Котевски студент на Brainster</span
+          >
+        </div>
+      </div>
+    </div>
+    <!-- POPPER JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <!-- BOOTSTRAP JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

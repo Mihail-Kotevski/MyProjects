@@ -1,0 +1,234 @@
+/* Colors  */
+.yellow {
+  background-color: rgba(252, 210, 50, 255) !important;
+}
+.red {
+  background-color: rgba(255, 19, 0, 255) !important;
+}
+
+/* NAVBAR */
+#logo {
+  font-size: 11px;
+  font-weight: bold;
+}
+#list a {
+  color: white !important;
+}
+@media screen and (max-width: 767px) {
+  #vraboti-student {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #list a {
+    background-image: linear-gradient(
+      to right,
+      #fe00e5,
+      rgb(0, 190, 133) 50%,
+      #200020 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  #list a:before {
+    content: "";
+    background: red;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #list a:hover {
+    background-position: 0;
+  }
+
+  #list a:hover::before {
+    width: 100%;
+  }
+}
+#banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/1533500.jpg);
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+}
+.toggler-button {
+  position: relative;
+  height: 20px;
+  width: 40px;
+  outline: none !important;
+}
+.span-one {
+  top: 0%;
+  width: 100%;
+}
+.span-two {
+  top: 50%;
+  width: 65%;
+}
+.span-three {
+  top: 100%;
+  width: 30%;
+}
+.span {
+  display: block;
+  position: absolute;
+  background-color: black !important;
+  height: 4px;
+  right: 0;
+  border-radius: 2px;
+}
+
+/* BANNER */
+#header-Cont {
+  position: relative;
+}
+#header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#header h1 {
+  font-size: 150px;
+}
+@media screen and (max-width: 830px) {
+  #header h1 {
+    font-size: 75px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #header h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .cards {
+    display: none;
+  }
+  .cards:nth-child(-n + 6) {
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 576px) {
+  #load-button {
+    display: none;
+  }
+}
+h1 span:hover {
+  color: #f3e8ff;
+  cursor: pointer;
+}
+h1 .span1 {
+  color: #840db2;
+}
+h1 .span2 {
+  color: #710b98;
+}
+h1 .span3 {
+  color: #710b98;
+}
+h1 .span4 {
+  color: #5e0a7f;
+}
+h1 .span5 {
+  color: #4b0866;
+}
+h1 .span6 {
+  color: #5e0a7f;
+}
+h1 .span7 {
+  color: #710b98;
+}
+h1 .span8 {
+  color: #840db2;
+}
+h1 .span9 {
+  color: #960fcb;
+}
+
+/* --FILTERS */
+.active-hover-marketing:hover,
+.active-hover-coding:hover,
+.active-hover-design:hover {
+  background-color: #ff1300 !important;
+  color: #212529;
+}
+.active-hover-marketing,
+.active-hover-coding,
+.active-hover-design {
+  background-color: #212529 !important ;
+  color: white;
+}
+.active {
+  background-color: rgba(255, 19, 0, 255) !important;
+  color: #212529;
+}
+
+/* --CARDS */
+.cards {
+  position: relative;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+}
+.cards:hover {
+  transform: translateY(-5px) scale(1.01) translateZ(0);
+  cursor: pointer;
+}
+
+.cards:hover .overlay {
+  transform: scale(4) translateZ(0);
+}
+/* FORM */
+.input-control small {
+  visibility: hidden !important;
+}
+.input-control input {
+  border: 2px solid transparent !important;
+}
+.input-control select {
+  border: 2px solid transparent !important;
+}
+.input-control.error input {
+  border: 2px solid rgba(255, 19, 0, 255) !important;
+}
+.input-control.error small {
+  color: rgba(255, 19, 0, 255);
+  visibility: visible !important;
+}
+.input-control.success input {
+  border: 2px solid green !important;
+}
+.input-control.success small {
+  visibility: hidden !important;
+}
+.input-control.success select {
+  border: 2px solid green !important;
+}
+.input-control.error select {
+  border: 2px solid rgba(255, 19, 0, 255) !important;
+}
+.selected {
+  border: 2px solid green;
+}
+.invalid {
+  border: 2px solid red;
+}
+/* FORM OPTIONS */
+.select-menu .options {
+  display: none;
+}
+.select-menu.toggle .options {
+  display: block;
+}
