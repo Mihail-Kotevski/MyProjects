@@ -1,0 +1,767 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  background-color: #fcebd5;
+}
+
+/* Landing Page */
+#landingPage {
+  height: 100vh;
+}
+#landingPageContent {
+  height: 100%;
+}
+#navBar {
+  color: #a16a5e;
+  position: relative;
+  text-align: center;
+  padding-bottom: 15px;
+  padding: 10px 0px 10px 0px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+#navBar h2 {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 30px;
+  font-weight: 200;
+}
+#landingPageContent,
+#navBar {
+  background-color: #fcebd5;
+}
+#logo,
+#navBar {
+  text-align: center;
+}
+#squares {
+  text-align: center;
+}
+#whiteCube {
+  margin: auto;
+  color: #a16a5e;
+  width: 276px;
+  z-index: 8;
+  background-color: #edd5bb;
+  height: 250px;
+  position: relative;
+  clip-path: polygon(0 0%, 0 68%, 100% 100%, 100% 0);
+}
+#brownCube {
+  margin: auto;
+  color: #edd5bb;
+  width: 276px;
+  z-index: 8;
+  background-color: #a16a5e;
+  height: 250px;
+  clip-path: polygon(0 0%, 100% 90px, 100% 100%, 0 100%);
+  margin-top: -90px;
+  position: relative;
+}
+#whiteCube h1 {
+  color: #a16a5e;
+  font-size: 42px;
+  font-weight: 100;
+  font-family: "Reenie Beanie", cursive;
+}
+#whiteCube div {
+  position: absolute;
+  width: 80%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#brownCube h1 {
+  color: #edd5bb;
+  font-size: 42px;
+  font-family: "Reenie Beanie", cursive;
+  position: absolute;
+  top: 50%;
+}
+#whiteCube:hover,
+#brownCube:hover {
+  transform: scale(1.05);
+  z-index: 9;
+}
+#chooseArtist {
+  width: 45%;
+  text-align: center;
+  color: #a16a5e;
+  padding: 2px;
+  background-color: #edd5bb;
+  border: 1px solid #a16a5e;
+  border-radius: 3px;
+  margin: 0 20px;
+  float: right;
+}
+
+/* Visitor Page  */
+#visitorPage,
+#visitorListingPage {
+  background-color: #fcebd5;
+  height: fit-content;
+  overflow: hidden;
+  position: relative;
+}
+.visitorLogo {
+  color: #a16a5e;
+  position: relative;
+  z-index: 10;
+  align-items: center;
+  height: 69px;
+  padding: 10px 0px 10px 0px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+#logoPosition {
+  position: absolute;
+  left: 0%;
+  right: 74.88%;
+  top: -10%;
+  bottom: 0%;
+  z-index: 1;
+}
+.visitorHeader {
+  margin-left: 105px;
+  padding-top: 10px;
+  font-family: "Reenie Beanie", cursive;
+  font-size: 30px;
+  font-weight: 200;
+  width: fit-content;
+}
+.hammerImg,
+#hammerImg,
+#burgerImg,
+.burgerImg {
+  width: 30px;
+}
+#visitorPageBanner {
+  background-image: url(../images/Bricks.png);
+  background-size: cover;
+  height: 150px;
+}
+#sliders {
+  background-color: #edd5bb;
+  padding: 30px 0;
+}
+.sliderLeft,
+.sliderRight {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.sliderLeft {
+  animation: moveSlideshow 14s linear infinite;
+  padding-bottom: 15px;
+}
+.sliderRight {
+  animation: moveSlideshow 14s reverse linear infinite;
+  padding-bottom: 15px;
+}
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-66.6666%);
+  }
+}
+.slideImg {
+  margin: 0 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+#visitorPageBanner {
+  position: relative;
+}
+#visitorPageBanner p {
+  position: absolute;
+  width: 65%;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: #a16a5e;
+  font-weight: 600;
+}
+#visitorPageBanner button {
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  transform: translate(-5%, -50%);
+  background-color: #a16a5e;
+  color: #fcebd5;
+  border: 1px solid #a16a5e;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+/* carousel style */
+.left .text {
+  background-color: #e09686;
+  margin: 5px;
+  padding: 40px 10px 10px 10px;
+  color: white;
+}
+
+.left {
+  position: relative;
+}
+.left p {
+  background-color: #e09686;
+  color: white !important;
+  padding: 7px;
+}
+.left img {
+  border: 3px solid #a16a5e;
+  position: absolute;
+  width: 70px;
+  top: -16%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.right {
+  color: #a16a5e;
+}
+#carousel-height {
+  height: 300px;
+  position: relative;
+}
+#carousel-height .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#carousel-height .text p:nth-child(2) {
+  font-size: small;
+  color: grey;
+}
+/* VisitorListing Page */
+#visitorListingPage {
+  background-color: #edd5bb;
+  position: relative;
+}
+.visitorLogo {
+  background-color: #fcebd5;
+}
+.line {
+  height: 100%;
+  border-top: 1px solid #a16a5e;
+}
+.cardTitleFont {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 40px;
+}
+.button {
+  height: fit-content;
+  padding: 2px 10px;
+  border: none;
+  border-radius: 3px;
+}
+.darkBtn {
+  background-color: #a16a5e;
+  color: #fcebd5;
+}
+.lightBtn {
+  background-color: #fcebd5;
+  color: #a16a5e;
+}
+.boxShadow {
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.darkCard {
+  background-color: #a16a5e;
+  color: #fcebd5;
+}
+.lightCard {
+  background-color: #fcebd5;
+  color: #a16a5e;
+}
+#listedCardsContainer {
+  background-color: #edd5bb;
+}
+#filterImage {
+  position: fixed;
+  border-radius: 3px;
+  top: 85%;
+  left: 77%;
+}
+#listingPageFilters {
+  height: 100vh;
+  width: 100%;
+  background-color: #a16a5e;
+  transition: transform 0.2s ease;
+  transform: translateX(100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* filters  */
+#listingPageFilters {
+  color: #edd5bb;
+}
+
+#artName,
+#selectArtist,
+#minPrice,
+#maxPrice {
+  width: 100px;
+  background-color: #a16a5e;
+  border: 1px solid #fcebd5;
+  border-radius: 3px;
+  padding: 3px;
+  color: #edd5bb;
+  outline: none;
+}
+#selectType {
+  width: 150px;
+  background-color: #a16a5e;
+  border: 2px solid #fcebd5;
+  border-radius: 3px;
+  padding: 3px;
+  color: #edd5bb;
+}
+#xBtn {
+  border: none;
+  background-color: #a16a5e;
+}
+#xBtn img {
+  width: 40px;
+}
+#applyBtn {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+#applyBtn img {
+  width: 55px;
+}
+.line {
+  border: 2px solid #edd5bb;
+  border-radius: 2px;
+}
+#artName::placeholder,
+#selectArtist::placeholder,
+#minPrice::placeholder,
+#maxPrice::placeholder,
+#selectType::placeholder {
+  color: #edd5bb;
+}
+/* Artist Home Page  */
+#artistHomePage,
+#artistHomePage {
+  height: 100%;
+}
+#activeUserInHeader,
+#activeUserOnItemPg,
+#activeUserAddItem,
+#activeUserCamera,
+#activeUserContact,
+#auctionArtist {
+  color: #a26a5e;
+}
+
+#incomeWrapper {
+  background: #edd5bb;
+  mix-blend-mode: normal;
+}
+
+.soldItems,
+.totalIncome {
+  background: #a26a5e;
+  border-radius: 3px;
+  height: 135px;
+  color: #edd5bb;
+}
+#displayIncome {
+  background: #fcebd5;
+  color: #a26a5e;
+  padding: 26px 18px;
+  height: auto;
+}
+.soldItems span,
+.totalIncome span,
+.auction span {
+  font-size: 18px;
+}
+.chartWrapper {
+  height: 40vh;
+}
+.auction {
+  font-size: 18px;
+  background: #d54c2e;
+  border-radius: 3px;
+  height: 135px;
+  color: #edd5bb;
+}
+.soldItems h3,
+.totalIncome h3,
+.auction h3,
+#bidPriceHomePg {
+  font-size: 38px;
+}
+
+.auctionItemHomePg {
+  background: #d54c2e;
+  border-radius: 2px;
+  text-align: center;
+  color: #edd5bb;
+  padding: 10px;
+}
+
+.auctionItem {
+  background: #d54c2e;
+  border-radius: 2px;
+  text-align: center;
+  color: #edd5bb;
+}
+
+.chartsDay {
+  background: #a26a5e;
+  color: #fcebd5;
+  border: none;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  margin: 1px;
+  width: 25%;
+}
+
+.activeBtn {
+  background-color: rgba(212, 76, 46, 255);
+}
+
+#hamburgerMenu {
+  width: 100%;
+  background-color: #a16a5e;
+  z-index: 9;
+  transition: transform 0.2s ease;
+  transform: translateX(100%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: #edd5bb;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+#hamburgerMenu p {
+  font-size: 50px;
+}
+#homeBtn {
+  text-decoration: none;
+  font-size: 50px;
+}
+
+/* Artist Items Page */
+.itemPgBody {
+  height: 100%;
+  padding: 26px 0px;
+  background: #edd5bb !important;
+  mix-blend-mode: normal;
+}
+
+#addNewItem {
+  z-index: 7;
+  background: #fcebd5;
+  border-radius: 2px;
+  height: 120px;
+  padding: 11px 18px;
+  text-align: center;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+#newItem {
+  border: 2px dashed #a26a5e;
+  background: #fcebd5;
+  border-radius: 2px;
+  height: 100px;
+  position: relative;
+}
+
+#newItem span {
+  color: #a26a5e;
+  font-size: 18px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.cardFooter {
+  background-color: #a16a5e;
+}
+
+.publishBtn,
+.toAuctBtn,
+.removeBtn,
+.editBtn {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 12px;
+  border: none;
+}
+.toAuctBtn {
+  width: 35%;
+}
+.cards {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.removeBtn {
+  background-color: #d44c2e;
+  color: #fcebd5;
+}
+.publishBtn {
+  background-color: #e5e5e5;
+  color: #5e5e5e;
+  font-weight: 600;
+}
+
+.unpublish {
+  background-color: #1bac6f;
+  color: #f8f8f8;
+}
+
+.toAuctBtn {
+  background-color: #1b59ac;
+  color: #f7f7f7;
+}
+.editBtn {
+  background-color: #edf4f1;
+  color: #a16a5e;
+}
+.cards .title {
+  color: #aa776a;
+}
+.cards small {
+  color: #e6aa99;
+}
+
+.cards span {
+  color: #ab786b;
+}
+/* Add new Item  */
+.addNewItem {
+  background-color: #a26a5e;
+  color: #edd5bb;
+  display: none;
+}
+
+#title,
+#description,
+#priceOfArt,
+#imgUrl {
+  background-color: inherit;
+  border: 1px solid #edd5bb;
+  outline: none;
+  color: #edd5bb;
+  border-radius: 3px;
+  padding: 2px;
+}
+#typeOfArt {
+  border: 1px solid #edd5bb;
+  outline: none;
+  color: #edd5bb;
+  border-radius: 3px;
+  padding: 3px;
+  background-color: #a16a5e;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+textarea {
+  resize: none;
+}
+
+.snapshoot {
+  border: 2px dashed #edd5bb;
+  border-radius: 3px;
+  text-align: center;
+  height: 300px;
+  position: relative;
+}
+
+.snapshoot div {
+  color: #edd5bb;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#checkbox {
+  color: #a26a5e;
+}
+.snapshoot div i {
+  font-size: 60px;
+}
+.newItemBtn,
+.editItemBtn {
+  background-color: #d44c2e;
+  border: 1px solid #d44c2e;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  color: #fcebd5;
+  width: 50%;
+  height: 37px;
+  font-size: 18px;
+}
+
+.cancelBtn {
+  width: 50%;
+  height: 37px;
+  background-color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  color: #5a5a5a;
+  font-size: 18px;
+}
+#getImage {
+  background-color: #a16a5e;
+  height: 100vh;
+  display: none;
+}
+.cameraWrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.screenshot-image {
+  width: 150px;
+  height: 90px;
+  border-radius: 4px;
+  border: 2px solid whitesmoke;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  background: white;
+}
+
+.display-cover {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  margin: 5% auto;
+  position: absolute;
+}
+
+video {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.video-options {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.controls {
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.controls > button {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  border-radius: 100%;
+  margin: 0 6px;
+  background: transparent;
+}
+
+.controls > button:hover svg {
+  color: white !important;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .controls {
+    flex-direction: column;
+  }
+
+  .controls button {
+    margin: 5px 0 !important;
+  }
+}
+
+.controls > button > svg {
+  height: 20px;
+  width: 18px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.controls button:nth-child(1) i,
+.controls button:nth-child(2) i,
+.controls button:nth-child(3) i {
+  color: #edd5bb;
+  font-size: 40px;
+}
+
+.controls > button {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  border-radius: 100%;
+  margin: 0 6px;
+  background: transparent;
+}
+
+.controls > button:hover svg {
+  color: white;
+}
+#newPhoto {
+  width: 100%;
+  height: 100%;
+}
+.aucStrPrice {
+  color: #fcebd5;
+}
+.aucTimer {
+  color: #ab786b;
+}
+.auctionCard {
+  position: relative;
+}
+.soldAucItem {
+  background-color: #a16a5e;
+  color: #fcebd5;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.bidBtn {
+  background-color: #a16a5e;
+  border: none;
+  border-radius: 3px;
+  color: #fcebd5;
+}
+#bidInp {
+  background-color: inherit;
+  border: none;
+  border-bottom: 2px solid #a16a5e;
+  text-align: center;
+  font-size: 18px;
+  color: #a26a5e;
+}
+.aucItem {
+  display: none;
+}
+.noAucAtm {
+  position: absolute;
+  top: 35%;
+  text-align: center;
+  color: #a16a5e;
+}
+#bidInpLabel {
+  color: #a16a5e;
+}

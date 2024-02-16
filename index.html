@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- webCam -->
+    <script src="https://unpkg.com/webcam-easy@1.1.1/dist/webcam-easy.min.js"></script>
+    <!-- BOOTSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/6da82ce649.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Landing Page  -->
+    <section id="landingPage">
+      <div id="navBar">
+        <h2>Street ARTists</h2>
+      </div>
+      <div id="landingPageContent">
+        <div id="logo">
+          <img src="./images/Logo.png" alt="" />
+        </div>
+        <div>
+          <div id="whiteCube">
+            <div>
+              <h1 class="pt-4">Join as Asrtist</h1>
+              <select name="" id="chooseArtist" class="chooseArtist">
+                <option value="">Choose</option>
+              </select>
+            </div>
+          </div>
+          <div id="brownCube" class="d-flex justify-content-center">
+            <h1>Join as Visitor</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Visitor Page  -->
+    <section id="visitorPage">
+      <div class="visitorLogo d-flex justify-content-between">
+        <div class="landingPageListener">
+          <a>
+            <img
+              src="./images/Logo.png"
+              alt=""
+              width="104"
+              height="104"
+              id="logoPosition"
+            />
+          </a>
+          <h2 class="visitorHeader" id="headerPosition">Street ARTists</h2>
+        </div>
+        <img src="./images/Untitled.png" alt="" id="hammerImg" class="m-2" />
+      </div>
+      <div id="visitorPageBanner">
+        <p>Looking for masterpiece?</p>
+        <button id="findMasterpieceBtn">Find one now !</button>
+      </div>
+      <div id="sliders">
+        <div class="sliderLeft">
+          <img
+            width="200px"
+            height="130px"
+            src="./images/2.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/3.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/4.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/5.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/6.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/7.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/8.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/9.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/8.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/7.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/6.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/5.jpg"
+            alt=""
+            class="slideImg"
+          />
+        </div>
+        <div class="sliderRight">
+          <img
+            width="200px"
+            height="130px"
+            src="./images/9.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/8.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/7.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/6.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/5.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/4.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/3.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/2.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/8.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/7.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/6.jpg"
+            alt=""
+            class="slideImg"
+          />
+          <img
+            width="200px"
+            height="130px"
+            src="./images/5.jpg"
+            alt=""
+            class="slideImg"
+          />
+        </div>
+      </div>
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide py-3"
+        data-bs-ride="false"
+      >
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active"
+            id="carousel-height"
+            data-bs-interval="0"
+          >
+            <div
+              class="text text-center d-flex col-10 flex-nowrap h-75 align-items-center justify-content-center"
+            >
+              <div class="left col-5 me-4">
+                <img
+                  src="./images/9.jpg"
+                  width="70"
+                  height="70"
+                  alt=""
+                  class="rounded-circle"
+                />
+
+                <p class="pt-5">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                  aliquam, purus sit amet luctus venenatis.
+                </p>
+              </div>
+              <div class="line"></div>
+              <div class="right col-5 ms-4">
+                <p class="m-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                  aliquam, purus sit amet luctus venenatis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" id="carousel-height" data-bs-interval="0">
+            <div
+              class="text text-center d-flex col-10 flex-nowrap h-75 align-items-center justify-content-center"
+            >
+              <div class="left col-5 me-4">
+                <img
+                  src="./images/7.jpg"
+                  width="70"
+                  height="70"
+                  alt=""
+                  class="rounded-circle"
+                />
+
+                <p class="pt-5">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                  aliquam, purus sit amet luctus venenatis.
+                </p>
+              </div>
+              <div class="line"></div>
+              <div class="right col-5 ms-4">
+                <p class="m-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                  aliquam, purus sit amet luctus venenatis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" id="carousel-height" data-bs-interval="0">
+            <div
+              class="text text-center d-flex col-10 flex-nowrap h-75 align-items-center justify-content-center"
+            >
+              <div class="left col-5 me-4">
+                <img
+                  src="./images/4.jpg"
+                  width="70"
+                  height="70"
+                  alt=""
+                  class="rounded-circle"
+                />
+
+                <p class="pt-5">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                  aliquam, purus sit amet luctus venenatis.
+                </p>
+              </div>
+              <div class="line"></div>
+              <div class="right col-5 ms-4">
+                <p class="m-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                  aliquam, purus sit amet luctus venenatis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev text-dark"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <i class="fa-sharp fa-solid fa-chevron-left fa-2xl"></i>
+        </button>
+        <button
+          class="carousel-control-next text-dark"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <i class="fa-sharp fa-solid fa-chevron-right fa-2xl"></i>
+        </button>
+      </div>
+    </section>
+    <!-- Visitor Listing Page  -->
+    <section id="visitorListingPage">
+      <div class="visitorLogo d-flex justify-content-between">
+        <img width="70px" id="filterImage" src="./images/search.png" />
+        <div class="landingPageListener">
+          <a>
+            <img
+              src="./images/Logo.png"
+              alt=""
+              width="104"
+              height="104"
+              id="logoPosition"
+            />
+          </a>
+          <h2 class="visitorHeader headerPosition">Street ARTists</h2>
+        </div>
+        <img
+          src="./images/Untitled.png"
+          alt=""
+          id="secHammerImg"
+          class="hammerImg m-2"
+        />
+      </div>
+      <div id="listedCardsContainer"></div>
+      <!-- Filters  -->
+      <div id="listingPageFilters" class="pt-1 position-relative">
+        <div class="px-4">
+          <div class="d-flex justify-content-between pt-3">
+            <p class="h1">Filter by</p>
+            <button id="xBtn">
+              <img src="./images/Untitled2.png" alt="close filters icon" />
+            </button>
+          </div>
+
+          <div class="d-flex flex-column">
+            <p class="h5 my-3">By Item Title</p>
+            <input type="text" id="artName" " placeholder="Item Title" />
+            <div class="line my-3"></div>
+          </div>
+
+          <div class="d-flex flex-column">
+            <p class="h5 my-3">By Artist</p>
+            <select id="selectArtist" class="" placeholder="Choose">
+              <option value="" disable selected>Choose</option>
+            </select>
+            <div class="line my-4"></div>
+          </div>
+
+          <div class="">
+            <p class="h5 my-3">By Price</p>
+            <div class="d-flex justify-content-between">
+              <div class="">
+                <label for="minPrice"
+                  >Min:
+                  <input
+                    type="text"
+                    id="minPrice"
+                    width="100px"
+                    placeholder="Price"
+                  />
+                </label>
+              </div>
+              <div class="float-end">
+                <label for="maxPrice"
+                  >Max:
+                  <input
+                    type="text"
+                    id="maxPrice"
+                    width="100px"
+                    placeholder="Price"
+                  />
+                </label>
+              </div>
+            </div>
+            <div class="line my-4"></div>
+          </div>
+
+          <div class="d-flex flex-column">
+            <p class="h5 my-3">By Type</p>
+            <select id="selectType" placeholder="Choose">
+              <option value="" disable selected>Choose</option>
+            </select>
+            <div class="line my-4"></div>
+          </div>
+          <div class="py-3">
+            <button id="applyBtn" class="float-end border-0 rounded">
+              <img src="./images/Untitled3.png" alt="accBtn" class="rounded" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Artist Home Page  -->
+    <section id="artistHomePage">
+      <div class="visitorLogo d-flex justify-content-between">
+        <div class="landingPageListener">
+          <a>
+            <img
+              src="./images/Logo.png"
+              alt=""
+              width="104"
+              height="104"
+              id="logoPosition"
+            />
+          </a>
+          <h2 class="visitorHeader artistHeader" id="headerPosition"></h2>
+          <h2 class="visitorHeader m-0 p-0" id="headerPosition"></h2>
+        </div>
+        <img src="./images/hamburger.png" alt="" id="burgerImg" class="m-2" />
+      </div>
+      <!-- toggler -->
+      <div id="hamburgerMenu" class="position-absolute">
+        <div class="px-4 pt-2">
+          <p id="homeBtn" class="text-light m-0">Home</p>
+          <p id="itemsBtn" class="text-light m-0">Items</p>
+          <p id="auctionBtn" class="text-light m-0 p-2">Auction</p>
+        </div>
+      </div>
+
+      <div id="incomeWrapper" class="w-100 pt-4 pb-4">
+        <div class="w-100 d-flex">
+          <div class="soldItems m-2 p-2 w-50 text-center">
+            <p class="mb-1 h6 pb-3">Total Items Sold</p>
+            <span></span>
+          </div>
+          <div class="totalIncome m-2 p-2 w-50 text-center">
+            <p class="mb-1 h6 pb-3">Total Income</p>
+            <span></span>
+          </div>
+        </div>
+        <div class="w-100">
+          <div class="auction m-2 p-3 text-center auctionWindow">
+            <span>Live Auctioning Item</span>
+            <h3 class="m-0 artistHomePageAuction">Unavailable</h3>
+            <span class="">current bid</span>
+          </div>
+        </div>
+      </div>
+      <div id="displayIncome">
+        <p class="mb-1">Display my income for last</p>
+        <div class="d-flex justify-content-between pb-3">
+          <button id="last7" class="chartsDay">7 days</button>
+          <button id="last14" class="chartsDay">14 days</button>
+          <button id="last30" class="chartsDay">1 month</button>
+          <button id="lastYear" class="chartsDay">Year</button>
+        </div>
+        <div class="chartWrapper pb-5">
+          <canvas id="myChart"></canvas>
+        </div>
+      </div>
+    </section>
+    <!-- Artist Item Page  -->
+    <section id="artistItemPage">
+      <div class="artistItemWrapper">
+        <div class="visitorLogo d-flex justify-content-between">
+          <div class="landingPageListener">
+            <a>
+              <img
+                src="./images/Logo.png"
+                alt=""
+                width="104"
+                height="104"
+                id="logoPosition"
+              />
+            </a>
+            <h2 class="visitorHeader artistItemHeader" id="headerPosition"></h2>
+          </div>
+          <img src="./images/hamburger.png" alt="" class="burgerImg m-2" />
+          <!-- toggler -->
+        </div>
+        <div id="hamburgerMenu" class="position-absolute hamburgerMenu">
+          <div class="px-4 pt-2">
+            <p id="itemshomeBtn" class="text-light m-0 p-2">Home</p>
+            <p id="itemsBtn" class="text-light m-0">Items</p>
+            <p id="auctionBtn" class="auctionBtn text-light m-0 p-2">Auction</p>
+          </div>
+        </div>
+
+        <div class="itemPgBody">
+          <div id="addNewItem">
+            <div id="newItem">
+              <span class="newItemSpan">+ Add new Item</span>
+            </div>
+          </div>
+          <div id="itemsContainer"></div>
+          <!--  -->
+        </div>
+      </div>
+
+      <!-- Add new Item  -->
+      <div class="addNewItem py-4 px-3">
+        <div class="filtersBody">
+          <div class="d-flex justify-content-between align-items-end">
+            <h1 id="editHeader" class="mb-0">Add new item</h1>
+            <div>
+              <label for="publishedOrNot" class="mb-0">Is published</label>
+              <input type="checkbox" id="publishedOrNot" />
+            </div>
+          </div>
+          <div class="mt-3">
+            <label for="title" class="d-block mb-0">Title</label>
+            <input type="text" id="title" class="w-100" required />
+          </div>
+          <div class="mt-3">
+            <label for="description" class="d-block mb-0">Description</label>
+            <textarea
+              name=""
+              id="description"
+              cols="40"
+              rows="5"
+              class="w-100"
+            ></textarea>
+          </div>
+          <div class="d-flex justify-content-between mt-3 w-100">
+            <div class="w-50">
+              <label for="typeOfArt" id="type" class="ms-2">Type</label>
+              <select
+                name="typeOfArt"
+                id="typeOfArt"
+                class="w-100 me-2 w-100"
+                placeholder="Choose"
+              >
+                <option value="" disable="" selected="">Choose</option>
+              </select>
+            </div>
+            <div class="w-50">
+              <label for="priceOfArt" id="priceArtLabel" class="ms-2"
+                >Price</label
+              >
+              <input
+                type="number"
+                class="ms-2"
+                name="priceOfArt"
+                id="priceOfArt"
+                required
+              />
+            </div>
+          </div>
+          <div class="mt-3">
+            <label for="imgUrl" class="d-block mb-0">Image URL</label>
+            <input type="text" name="" id="imgUrl" class="w-100" />
+          </div>
+          <p class="text-center mt-1 mb-1">or</p>
+          <div class="snapshoot">
+            <img id="newPhoto" class="d-none" src="" alt="" />
+            <div>
+              <i id="openCamera" class="fa-solid fa-camera"></i>
+              <p id="snapParagraph">Take a snapshoot</p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between mt-3">
+            <button class="newItemBtn m-2">Add new item</button>
+            <button class="cancelBtn m-2">Cancel</button>
+          </div>
+        </div>
+      </div>
+      <!-- camera  -->
+      <div id="getImage">
+        <div class="cameraWrapper">
+          <div class="video-options">
+            <select name="" id="" class="custom-select">
+              <option value="">Select camera</option>
+            </select>
+          </div>
+          <div class="display-cover">
+            <video autoplay></video>
+            <canvas class="d-none"></canvas>
+          </div>
+          <div class="controls bottom-0">
+            <button class="btn play p-0 d-block" title="Play">
+              <i class="fa-solid fa-play"></i>
+            </button>
+            <button class="btn pause d-none p-0" title="Pause">
+              <i class="fa-solid fa-pause"></i>
+            </button>
+            <button class="btn screenshot d-none p-0" title="ScreenShot">
+              <i class="fa-solid fa-camera"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Auction Page  -->
+    <section id="auctionItemsPage">
+      <div class="aucContainer">
+        <div class="visitorLogo d-flex landingPageListener">
+          <a>
+            <img
+              src="./images/Logo.png"
+              alt=""
+              width="104"
+              height="104"
+              id="logoPosition"
+            />
+          </a>
+          <h2 class="visitorHeader" id="headerPosition">Auction</h2>
+          <span class="aucTimer ps-5"></span>
+        </div>
+        <p class="h1 noAucAtm">No auction available at the moment.</p>
+        <div class="aucItem">
+          <div class="auctionItemContainer">
+            <div class="cards auctionCard mt-4">
+              <img class="card-img-top aucItemImg" src="" />
+              <div class="card-body py-2 px-4">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="aucItemtitle title h5 m-0"></p>
+                    <small></small>
+                  </div>
+                  <button class="aucItemPrice button darkBtn m-1"></button>
+                </div>
+                <div class="pt-3">
+                  <span class="aucItemDesc"></span>
+                </div>
+              </div>
+              <div class="cardFooter aucStrPrice p-3 text-center">
+                <h4 class="aucItemStartPrice"></h4>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-4 w-100 justify-content-center bidding">
+            <div>
+              <label for="bidInp" id="bidInpLabel">$</label>
+              <input type="text" id="bidInp" />
+            </div>
+            <button class="bidBtn px-4 py-1 mt-2">Bid</button>
+          </div>
+          <div
+            class="soldAucItem d-flex justify-content-around text-center mt-4 py-3"
+          >
+            <div class="aucBids">
+              <div class="priceSold">
+                <div class="h3 previousBids">
+                  <p class="h4 m-1">Bidding History:</p>
+                  <ul id="bidHistoryList"></ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- ChartsJs  -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!------JS------>
+    <script src="./js/data.js"></script>
+    <script src="./js/router.js"></script>
+    <script src="./js/landing.js"></script>
+    <script src="./js/visitorHomePage.js"></script>
+    <script src="./js/visitorListingPage.js"></script>
+    <script src="./js/artistItemPage.js"></script>
+    <script src="./js/artistHomePage.js"></script>
+    <script src="./js/auctionPage.js"></script>
+
+    <!-- POPPER JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- BOOTSTRAP JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
