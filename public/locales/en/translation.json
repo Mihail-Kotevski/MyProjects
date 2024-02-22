@@ -1,0 +1,26 @@
+{
+  "en": {
+    "translation": {
+      "navbar": {
+        "aboutUs": "About us",
+        "aboutKrik": "About Krik",
+        "aboutOurTeam": "About Our Team",
+        "volunteers": "Volunteers",
+        "archive": "Archive",
+        "services": "Services",
+        "projects": "Projects",
+        "contact": "Contact",
+        "donate": "Donate"
+      },
+      "footer": {
+        "newsletter": "Montly Newsletter",
+        "email": "Your email adress",
+        "contactUs": "Contact Us",
+        "yourNameInp": "Your Name",
+        "yourName": "Your Name",
+        "signIn": "Sign In",
+        "aboutKrik": "About Krik"
+      }
+    }
+  }
+}

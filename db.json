@@ -1,0 +1,2336 @@
+{
+  "homePage": {
+    "title": "ПРОМЕНАТА ДОАЃА ОД МЛАДИТЕ",
+    "preTitle": "Кои Сме Ние?",
+    "textContent": "Центарот за младински активизам Крик е невладина, непрофитна организација основана од млади луѓе, предводена од млади луѓе и работи за и со млади луѓе.",
+    "soon": {
+      "black": {
+        "title": "НАСКОРО",
+        "pretitle": "Нижеме заедно",
+        "description": " Проектот „Еднакви можности за девојчињата и младите жени во Северна Македонија” го спроведуваат Националниот младински совет на Македонија и Stella Network, со финансиска поддршка од страна на Британската амбасада во Скопје."
+      },
+      "white": {
+        "title": "Нижеме заедно",
+        "place": "Градски парк, Скопје",
+        "time": "14:00",
+        "date": "23",
+        "motnth": "септ"
+      }
+    },
+    "krikSucces": [
+      {
+        "number": "320",
+        "text": "Проекти"
+      },
+      {
+        "number": "580",
+        "text": "Волонтери"
+      },
+      {
+        "number": "25",
+        "text": "Партнери"
+      }
+    ],
+    "news": [
+      {
+        "id": "1",
+        "name": "АКТИВНОСТ ECO-ACTION",
+        "date": "25.08.2023",
+        "text": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+        "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg"
+      },
+      {
+        "id": "2",
+        "name": "АКТИВНОСТ ECO-ACTION",
+        "date": "25.08.2023",
+        "text": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+        "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg"
+      },
+      {
+        "id": "3",
+        "name": "ESC Volunteers",
+        "date": "25.08.2023",
+        "text": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+        "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg"
+      },
+      {
+        "id": "4",
+        "name": "BUILD YOUR STRENGTH",
+        "date": "25.08.2023",
+        "text": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+        "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg"
+      },
+      {
+        "id": "5",
+        "name": "ЛЕТЕН КАМП",
+        "date": "25.08.2023",
+        "text": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+        "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg"
+      },
+      {
+        "id": "6",
+        "name": "АКТИВНОСТ ECO-ACTION",
+        "date": "25.08.2023",
+        "text": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+        "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg"
+      },
+      {
+        "id": "7",
+        "name": "АКТИВНОСТ ECO-ACTION",
+        "date": "25.08.2023",
+        "text": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+        "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg"
+      },
+      {
+        "id": "8",
+        "name": "АКТИВНОСТ ECO-ACTION",
+        "date": "25.08.2023",
+        "text": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+        "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg"
+      },
+      {
+        "id": "9",
+        "name": "АКТИВНОСТ ECO-ACTION",
+        "date": "25.08.2023",
+        "text": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+        "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg"
+      }
+    ],
+    "partners": [
+      {
+        "image": "/Image/icons/Frame 91.png"
+      },
+      {
+        "image": "/Image/icons/Frame 92.png"
+      },
+      {
+        "image": "/Image/icons/nmsmakedonija 1.png"
+      },
+      {
+        "image": "/Image/icons/stella-network 2.png"
+      },
+      {
+        "image": "/Image/icons/Frame 91.png"
+      },
+      {
+        "image": "/Image/icons/Frame 92.png"
+      },
+      {
+        "image": "/Image/icons/nmsmakedonija 1.png"
+      },
+      {
+        "image": "/Image/icons/stella-network 2.png"
+      }
+    ]
+  },
+  "workers": [
+    {
+      "id": "1",
+      "name": "Игор Димовски",
+      "position": "Координатор за волонтери во ЦМА - Крик",
+      "image": "/Image/worker 1.png",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias totam quasi repellendus rem, ratione ullam nulla ex. Consequatur dolores fugit ad iure facere nostrum impedit soluta, culpa reiciendis dicta consectetur veniam. Nesciunt quod ex consequatur totam, possimus impedit id deserunt accusantium repellendus quibusdam, vel accusamus sequi ipsam et aut non. dolores fugit ad iure facere nostrum impedit soluta, culpa reiciendis dicta consectetur veniam. Nesciunt quod ex consequatur totam.",
+      "linkedIn": "https://www.linkedin.com/feed/"
+    },
+    {
+      "id": "2",
+      "name": "Матео Тренкоски",
+      "position": "Практикант во ЦМА Крик",
+      "image": "/Image/worker 2.png",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias totam quasi repellendus rem, ratione ullam nulla ex. Consequatur dolores fugit ad iure facere nostrum impedit soluta, culpa reiciendis dicta consectetur veniam. Nesciunt quod ex consequatur totam, possimus impedit id deserunt accusantium repellendus quibusdam, vel accusamus sequi ipsam et aut non. dolores fugit ad iure facere nostrum impedit soluta, culpa reiciendis dicta consectetur veniam. Nesciunt quod ex consequatur totam.",
+      "linkedIn": "https://www.linkedin.com/feed/"
+    },
+    {
+      "id": "3",
+      "name": "Сара Димоска",
+      "position": "Координатор во ЦМА Крик",
+      "image": "/Image/worker 3.png",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias totam quasi repellendus rem, ratione ullam nulla ex. Consequatur dolores fugit ad iure facere nostrum impedit soluta, culpa reiciendis dicta consectetur veniam. Nesciunt quod ex consequatur totam, possimus impedit id deserunt accusantium repellendus quibusdam, vel accusamus sequi ipsam et aut non. dolores fugit ad iure facere nostrum impedit soluta, culpa reiciendis dicta consectetur veniam. Nesciunt quod ex consequatur totam.",
+      "linkedIn": "https://www.linkedin.com/feed/"
+    }
+  ],
+  "menagement-board": [
+    {
+      "id": "1",
+      "image": "/Image/Rectangle 69.png",
+      "title": "Lorem ipsum dolor sit.",
+      "preTitle": "Lorem ipsum dolor sit amet consectetur.",
+      "description": "ipsum dolor sit amet, consectetur adipisicing elit. Commodi officia quisquam delectus illo? Excepturi, dolorum quam Commodi officia quisquam delectus illo? Excepturi, dolorum quam praesentium nemo alias? Iure consectetur repudiandae facilis voluptatem odit magnam quibusdam. Atque, vitae corrupti?"
+    },
+    {
+      "id": "2",
+      "image": "/Image/Rectangle 71.png",
+      "title": "Lorem ipsum dolor sit.",
+      "preTitle": "Lorem ipsum dolor sit amet consectetur.",
+      "description": "ipsum dolor sit amet, consectetur adipisicing elit. Commodi officia quisquam delectus illo? Excepturi, dolorum quam Commodi officia quisquam delectus illo? Excepturi, dolorum quam praesentium nemo alias? Iure consectetur repudiandae facilis voluptatem odit magnam quibusdam. Atque, vitae corrupti?"
+    },
+    {
+      "id": "3",
+      "image": "/Image/Rectangle 70.png",
+      "title": "Lorem ipsum dolor sit.",
+      "preTitle": "Lorem ipsum dolor sit amet consectetur.",
+      "description": "ipsum dolor sit amet, consectetur adipisicing elit. Commodi officia quisquam delectus illo? Excepturi, dolorum quam Commodi officia quisquam delectus illo? Excepturi, dolorum quam praesentium nemo alias? Iure consectetur repudiandae facilis voluptatem odit magnam quibusdam. Atque, vitae corrupti?"
+    }
+  ],
+  "about-page": {
+    "title": "Центарот за младинскиот активизам Крик е невладина, непрофитна организација основана од страна на млади луѓе, предводена од млади луѓе и работи за и со младите луѓе. ",
+    "description": "Целната група со која КРИК работи се сите луѓе (но главно млади) кои сакаат да придонесат и направат промени во полето на екологија, критичко размислување и комуникациски вештини, како и рабење за благостојба на социјално исклучените групи од општеството и маргинализираните групи. Крик се стреми кон поттикнување на поголема партиципација на младите, младински активизам, да ги охрабри младите луѓе да бидат повеќе вклучени во процесот на креирање политики на локално и на национално ниво.",
+    "aboutKrik": [
+      {
+        "id": "1",
+        "title": "Мисија",
+        "content": "Да понуди активности за зајакнување на капацитетите на младите и лицата со попреченост преку развој на младинската работа и обезбедување услуги за социјална заштита."
+      },
+      {
+        "id": "2",
+        "title": "Визија",
+        "content": "Да создаде инклузивно општество каде младите и лицата со попреченост се подеднакво вклучени и имаат целосно развиени капацитети активно да придонесуваат за заедницата."
+      },
+      {
+        "id": "3",
+        "title": "Нашите Вредности",
+        "content": "Развивање на младинската работа, поттикнување младински активизам и волонтеризам. Поголема вклученост на младите исклучени од општеството преку учество на работилници, настани и обуки.Развој на услуги за социјална заштита, сместување и грижа за лица со интелектуална и/или телесна попреченост и други услови. Поттикнување на социјалната вклученост на маргинализираните групи млади и возрасни во сите сфери на општественото делување."
+      }
+    ],
+    "commonQuestions": [
+      {
+        "id": "1",
+        "question": "01  Lorem ipsum",
+        "answer": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. "
+      },
+      {
+        "id": "2",
+        "question": "02  Lorem ipsum",
+        "answer": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. "
+      },
+      {
+        "id": "3",
+        "question": "03  Lorem ipsum",
+        "answer": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. "
+      },
+      {
+        "id": "4",
+        "question": "04  Lorem ipsum",
+        "answer": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. "
+      },
+      {
+        "id": "5",
+        "question": "05  Lorem ipsum",
+        "answer": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. "
+      }
+    ]
+  },
+  "volonteers": [
+    {
+      "id": "1",
+      "longTerm": false,
+      "image": "/Image/volonter 1.png",
+      "name": "Idil Abes",
+      "age": "20",
+      "country": "Tурција",
+      "description": "Hello! I’m Idil. I am 20. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        },
+        {
+          "id": "2",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": false
+        },
+        {
+          "id": "3",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "longTerm": false,
+      "image": "/Image/volonter 2.png",
+      "name": "Melih Furkan Orta",
+      "age": "22",
+      "country": "Tурција",
+      "description": "Hello! I’m Melih. I am 22. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        },
+        {
+          "id": "2",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": false
+        },
+        {
+          "id": "3",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "longTerm": false,
+      "image": "/Image/volonter 3.png",
+      "name": "Bedirhan Sevim",
+      "age": "22",
+      "country": "Tурција",
+      "description": "Hello! I’m Bedirhan. I am 22. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        },
+        {
+          "id": "2",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": false
+        },
+        {
+          "id": "3",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "longTerm": false,
+      "image": "/Image/volonter 4.png",
+      "name": "Zeynep Cebeci",
+      "age": "20",
+      "country": "Tурција",
+      "description": "Hello! I’m Zeynep. I am 20. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        },
+        {
+          "id": "2",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": false
+        },
+        {
+          "id": "3",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "longTerm": false,
+      "image": "/Image/volonter 5.png",
+      "name": "Merve Ozkan",
+      "age": "18",
+      "country": "Tурција",
+      "description": "Hello! I’m Merve. I am 18. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        },
+        {
+          "id": "2",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": false
+        },
+        {
+          "id": "3",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "longTerm": false,
+      "image": "/Image/volonter 6.png",
+      "name": "Melek Cakans",
+      "age": "20",
+      "country": "Tурција",
+      "description": "Hello! I’m Melek. I am 20. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        },
+        {
+          "id": "2",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": false
+        },
+        {
+          "id": "3",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "longTerm": false,
+      "image": "/Image/volonter 7.png",
+      "name": "Melisa Pektaş",
+      "age": "23",
+      "country": "Tурција",
+      "description": "Hello! I’m Melisa. I am 23. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        },
+        {
+          "id": "2",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": false
+        },
+        {
+          "id": "3",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "longTerm": false,
+      "image": "/Image/volonter 8.png",
+      "name": "Manon Lacoste",
+      "age": "21",
+      "country": "Франција",
+      "description": "Hello! I’m Manon. I am 21. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        },
+        {
+          "id": "2",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": false
+        },
+        {
+          "id": "3",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "longTerm": false,
+      "image": "/Image/volonter 9.png",
+      "name": "Lisa Simone",
+      "age": "24",
+      "country": "Франција",
+      "description": "Hello! I’m Lisa. I am 24. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        },
+        {
+          "id": "2",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": false
+        },
+        {
+          "id": "3",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "longTerm": false,
+      "image": "/Image/volonter 10.png",
+      "name": "Kaan Alğın",
+      "age": "23",
+      "country": "Tурција",
+      "description": "Hello! I’m Kaan. I am 23. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        },
+        {
+          "id": "2",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": false
+        },
+        {
+          "id": "3",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "longTerm": false,
+      "image": "/Image/volonter 11.png",
+      "name": "Metehan Cam",
+      "age": "23",
+      "country": "Tурција",
+      "description": "Hello! I’m Metehan. I am 23. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        },
+        {
+          "id": "2",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": false
+        },
+        {
+          "id": "3",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "longTerm": false,
+      "image": "/Image/volonter 12.png",
+      "name": "Ali Karabay",
+      "age": "29",
+      "country": "Tурција",
+      "description": "Hello! I’m Ali. I am 29. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        },
+        {
+          "id": "2",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": false
+        },
+        {
+          "id": "3",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "longTerm": true,
+      "image": "/Image/volonter 9.png",
+      "name": "Lisa Simone",
+      "age": "24",
+      "country": "Франција",
+      "description": "Hello! I’m Lisa. I am 24. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        },
+        {
+          "id": "2",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": false
+        },
+        {
+          "id": "3",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "longTerm": true,
+      "image": "/Image/volonter 10.png",
+      "name": "Kaan Alğın",
+      "age": "23",
+      "country": "Tурција",
+      "description": "Hello! I’m Kaan. I am 23. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        },
+        {
+          "id": "2",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": false
+        },
+        {
+          "id": "3",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "longTerm": true,
+      "image": "/Image/volonter 11.png",
+      "name": "Metehan Cam",
+      "age": "23",
+      "country": "Tурција",
+      "description": "Hello! I’m Metehan. I am 23. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        },
+        {
+          "id": "2",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": false
+        },
+        {
+          "id": "3",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "longTerm": true,
+      "image": "/Image/volonter 12.png",
+      "name": "Ali Karabay",
+      "age": "29",
+      "country": "Tурција",
+      "description": "Hello! I’m Ali. I am 29. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "1",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        },
+        {
+          "id": "2",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": false
+        },
+        {
+          "id": "3",
+          "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+          "date": "25.07.2022",
+          "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.",
+          "see-more": "Види повеќе",
+          "state": true
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "98",
+      "state": false,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "26",
+      "state": false,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "83",
+      "state": false,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "87",
+      "state": false,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "47",
+      "state": false,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "34",
+      "state": false,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "65",
+      "state": false,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "image": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg",
+      "date": "25.07.2022",
+      "description": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "pupose": "Lorem ipsum dolor sit amet consectetur. Curabitur cursus quis id.sit amet consectetur. Curabitur cursus quis idsit amet consectetur. Curabitur cursus quis id",
+      "completition": "100",
+      "state": true,
+      "title": "Project Name",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    }
+  ],
+  "news": {
+    "months": [
+      {
+        "id": "1",
+        "month": "Август",
+        "year": "2023",
+        "description": "Lorem ipsum dolor sit amet consectetur. In natoque euismod enim cursus velit in. Libero nisi morbi sed libero egestas.",
+        "slug": "august"
+      },
+      {
+        "id": "2",
+        "month": "Јули",
+        "year": "2023",
+        "description": "Lorem ipsum dolor sit amet consectetur. In natoque euismod enim cursus velit in. Libero nisi morbi sed libero egestas.",
+        "slug": "july"
+      },
+      {
+        "id": "3",
+        "month": "Јуни",
+        "year": "2023",
+        "description": "Lorem ipsum dolor sit amet consectetur. In natoque euismod enim cursus velit in. Libero nisi morbi sed libero egestas.",
+        "slug": "june"
+      }
+    ]
+  },
+  "allnews": [
+    {
+      "id": "1",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "08.25.2022",
+      "image": "/Image/news/news 3.jpg",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "08.22.2022",
+      "image": "/Image/news/news 1.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "08.28.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "july",
+      "date": "07.28.2022",
+      "image": "/Image/news/news 3.jpg",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "july",
+      "date": "07.1.2022",
+      "image": "/Image/news/news 1.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "july",
+      "date": "07.15.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "june",
+      "date": "06.28.2022",
+      "image": "/Image/news/news 1.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "june",
+      "date": "06.23.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "june",
+      "date": "06.8.2022",
+      "image": "/Image/news/news 3.jpg",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/icons/Frame 91.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "title": "Lorem ipsum dolor sit amet consectetur. ",
+      "desc": "Lorem ipsum dolor sit amet consectetur. Elementum lorem viverra egestas arcu.",
+      "descriptionOne": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. ",
+      "descriptionTwo": "Lorem ipsum dolor sit amet consectetur. Eu morbi sed sollicitudin eu ut. Congue dictum nibh non sodales est. Id dolor eu purus cursus elit. Sed eleifend facilisis morbi risus ullamcorper. Dictumst viverra semper scelerisque proin nisl luctus vitae ut. Turpis viverra mauris adipiscing ornare etiam ipsum pretium. Ornare aenean adipiscing nunc dolor vitae vel sem aliquet. Aliquam est integer libero morbi congue est porttitor. Vitae tellus lorem arcu tortor sem tellus hendrerit nibh. Mattis volutpat nunc parturient dignissim. Tincidunt mauris velit congue rhoncus ut eget malesuada purus. Ut commodo tempus sed consectetur sem etiam. Vel enim aliquam urna orci tempus mauris vitae tincidunt habitant. ",
+      "slug": "august",
+      "date": "25.07.2022",
+      "image": "/Image/news/news 2.png",
+      "imageTwo": "/Image/news/news 1.png",
+      "photos": [
+        {
+          "id": "1",
+          "image": "/Image/Frame 282.png"
+        },
+        {
+          "id": "2",
+          "image": "/Image/Frame 437.png"
+        },
+        {
+          "id": "3",
+          "image": "/Image/image 26.png"
+        }
+      ]
+    }
+  ]
+}

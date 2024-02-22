@@ -1,0 +1,26 @@
+{
+  "mkd": {
+    "translation": {
+      "navbar": {
+        "aboutUs": "За Нас",
+        "aboutKrik": "За Крик",
+        "aboutOurTeam": "Нашиот Тим",
+        "volunteers": "Волонтери",
+        "archive": "Архива",
+        "services": "Услуги",
+        "projects": "Проекти",
+        "contact": "Контакт",
+        "donate": "Донирај"
+      },
+      "footer": {
+        "newsletter": "Месечен Билтен",
+        "email": "Вашата Емаил Адреса",
+        "contactUs": "Контактирај не",
+        "yourNameInp": "Вашето Име",
+        "yourName": "Your Name",
+        "signIn": "Приклучи Се",
+        "aboutKrik": "За Крик"
+      }
+    }
+  }
+}
