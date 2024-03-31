@@ -1,0 +1,197 @@
+@use "/src/styles/base/_colors.scss";
+@import "/src/styles/utilities/_mixins.scss";
+
+.navbar {
+  background-color: colors.$color-black;
+  .topBar {
+    color: white;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.6);
+    padding: 8px 0;
+    position: relative;
+    width: 100%;
+    .topBarContent {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      width: 85%;
+      margin: 0 auto;
+      justify-content: space-between;
+      .leftContent {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        a {
+          text-decoration: none;
+          color: white;
+          margin: auto 0;
+          font-size: large;
+        }
+        input {
+          border-radius: 25px;
+          border: 3px solid white;
+          margin-left: 20px;
+          padding: 3px 0;
+          width: 200px;
+          text-align: center;
+        }
+      }
+      .rightContent {
+        display: flex;
+        width: 16%;
+        justify-content: space-between;
+        ul {
+          display: flex;
+          margin: auto 0;
+          list-style: none;
+          gap: 30px;
+        }
+      }
+    }
+  }
+  .color {
+    @include orange;
+  }
+  .colorContrast {
+    @include orange-contrast;
+  }
+  nav {
+    width: 100%;
+    padding: 5px 0;
+    .bottomBar {
+      display: flex;
+      justify-content: space-between;
+      width: 85%;
+      margin: 0 auto;
+      .container {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        ul {
+          margin: 0;
+          list-style: none;
+          display: flex;
+          font-size: 18px;
+          gap: 10px;
+          li {
+            :hover {
+              outline: 2px solid black;
+            }
+            a {
+              border-radius: 20px;
+              padding: 5px 10px;
+              font-weight: 500;
+              color: black;
+              text-decoration: none;
+            }
+          }
+          .active {
+            border-radius: 20px;
+            a {
+              background-color: black;
+              padding: 5px 10px;
+              color: white;
+            }
+          }
+          .dropdown {
+            width: 112px;
+            display: inline-block;
+            color: white;
+            outline: 2px solid black;
+            margin-right: 10px;
+            position: relative;
+            margin-top: -5px;
+            outline: none !important;
+            :hover {
+              outline: none !important;
+            }
+            div {
+              background-color: black;
+              z-index: 9;
+              display: flex;
+              padding: 5px 5px;
+              border-radius: 20px;
+              align-items: center;
+              flex-direction: column;
+              position: absolute;
+              width: max-content;
+              svg {
+                padding-left: 10px;
+              }
+              a {
+                color: white;
+                font-weight: 400;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+        .hamburgerMenu {
+          position: relative;
+          display: block;
+          height: 100vh;
+          position: fixed;
+          top: 0;
+          right: 0;
+          left: 0;
+          z-index: 10;
+          padding: 0;
+          background-color: orange;
+          li {
+            width: fit-content;
+            border-radius: 30px;
+            padding: 15px;
+          }
+          .close {
+            width: 30px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            height: fit-content;
+          }
+        }
+        .hamburger {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+//Media Size
+
+@media (max-width: 425px) {
+  .navbar {
+    .topBar {
+      .topBarContent {
+        padding: 15px 0;
+        .leftContent {
+          display: none !important;
+        }
+        .rightContent {
+          display: none !important;
+        }
+      }
+    }
+    nav {
+      .bottomBar {
+        width: 90% !important;
+        .svg {
+          display: block !important;
+          float: inline-end;
+        }
+        img {
+          width: 40px;
+        }
+        .container {
+          ul {
+            display: none;
+          }
+          .hamburger {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

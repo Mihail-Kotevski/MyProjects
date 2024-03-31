@@ -1,5 +1,6 @@
 import { IVolonteer } from "@/interfaces/types";
 import Link from "next/link";
+import volunteurCard from "@/styles/components/VolunteerCard.module.scss";
 
 interface Props {
   data: IVolonteer;
@@ -8,7 +9,7 @@ const VolunteeurCard: React.FC<Props> = ({ data }) => {
   return (
     <Link
       href={`/volunteers/${data.id}`}
-      className="volunteeur-card"
+      className={volunteurCard.volunteurCard}
       id={data.id}
     >
       <img src={data.image} alt="" />

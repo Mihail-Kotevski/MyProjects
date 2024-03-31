@@ -1,27 +1,28 @@
 import Link from "next/link";
-import Image from "next/image";
-import { useRouter } from "next/router";
+import styles from "../styles/layout/Navbar.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import ChangeLang from "./ChangeLang";
 import { useTranslation } from "react-i18next";
+import { accesibilityContext } from "@/context/accesibilityContext";
 
 const Header: React.FC = () => {
+  const { contrast } = useContext(accesibilityContext);
   const { t } = useTranslation();
   const [toggleAboutUs, settoggleAboutUs] = useState(true);
   const [hamburger, sethamburger] = useState(false);
 
   return (
     <>
-      <header>
-        <div className="top-bar">
-          <div className="top-bar-content">
-            <div className="left-content">
+      <header className={styles.navbar}>
+        <div className={styles.topBar}>
+          <div className={styles.topBarContent}>
+            <div className={styles.leftContent}>
               <Link href={"/newsletter"}>NEWSLETTER</Link>
               <input type="text" placeholder="SEARCH" />
             </div>
-            <div className="right-content ">
+            <div className={styles.rightContent}>
               <ul className="">
                 <ChangeLang />
                 <li>E-Shop</li>
@@ -29,24 +30,21 @@ const Header: React.FC = () => {
             </div>
           </div>
         </div>
-        <nav className="orange">
-          <div className="bottom-bar">
-            <div>
+        <nav className={contrast ? styles.color : styles.colorContrast}>
+          <div className={styles.bottomBar}>
+            <div className={styles.container}>
               <Link href="/">
                 <img src="/Image/icons/krik-logo 1.png" alt="" />
               </Link>
-              <ul className="nav-menu">
+              <ul>
                 {toggleAboutUs ? (
-                  <li
-                    className="aboutusBtn"
-                    onClick={() => settoggleAboutUs(!toggleAboutUs)}
-                  >
+                  <li onClick={() => settoggleAboutUs(!toggleAboutUs)}>
                     {t("navbar.aboutUs")}
                     <FontAwesomeIcon icon={faAngleDown} />
                   </li>
                 ) : (
-                  <li className="dropdown">
-                    <div className="za-nas ">
+                  <li className={styles.dropdown}>
+                    <div>
                       <span onClick={() => settoggleAboutUs(!toggleAboutUs)}>
                         {t("navbar.aboutUs")}
                         <FontAwesomeIcon icon={faAngleDown} />
@@ -69,12 +67,12 @@ const Header: React.FC = () => {
                 <li>
                   <Link href="#contact">{t("navbar.contact")}</Link>
                 </li>
-                <li className="active">
+                <li className={styles.active}>
                   <Link href="/donate">{t("navbar.donate")}</Link>
                 </li>
               </ul>
               {hamburger ? (
-                <ul className="hamburger-menu orange">
+                <ul className={styles.hamburgerMenu}>
                   {toggleAboutUs ? (
                     <li
                       className="aboutusBtn"
@@ -84,7 +82,7 @@ const Header: React.FC = () => {
                       <FontAwesomeIcon icon={faAngleDown} />
                     </li>
                   ) : (
-                    <li className="dropdown">
+                    <li className={styles.dropdown}>
                       <div className="za-nas ">
                         <span onClick={() => settoggleAboutUs(!toggleAboutUs)}>
                           {t("navbar.aboutUs")}
@@ -95,7 +93,7 @@ const Header: React.FC = () => {
                         <Link href={"/volunteers"}>
                           {t("navbar.volunteers")}
                         </Link>
-                        <Link href={"?"}>{t("navbar.archive")}</Link>
+                        <Link href={"#"}>{t("navbar.archive")}</Link>
                       </div>
                     </li>
                   )}
@@ -115,7 +113,7 @@ const Header: React.FC = () => {
                   </li>
                   <svg
                     onClick={() => sethamburger(false)}
-                    className="close"
+                    className={styles.close}
                     fill="#000000"
                     height="800px"
                     width="800px"
@@ -137,8 +135,8 @@ const Header: React.FC = () => {
                 ""
               )}
               <svg
-                onClick={() => sethamburger(true)}
-                className="hamburger"
+                onClick={() => sethamburger(!hamburger)}
+                className={styles.hamburger}
                 width="24"
                 height="26"
                 viewBox="0 0 24 26"

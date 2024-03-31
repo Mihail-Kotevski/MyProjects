@@ -1,0 +1,29 @@
+// News Card
+
+.cardComponent {
+  display: flex;
+  width: 100%;
+  padding: 40px;
+  border-radius: 30px;
+  background-size: cover;
+  aspect-ratio: 1 / 1;
+  color: white;
+  align-items: flex-end;
+  .content {
+    div {
+      span:nth-child(1) {
+        margin-right: 15px;
+      }
+      span:nth-child(2) img {
+        padding-right: 10px;
+      }
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    svg {
+      vertical-align: middle;
+    }
+  }
+}

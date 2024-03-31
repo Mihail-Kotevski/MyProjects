@@ -1,6 +1,7 @@
 import { IProject } from "@/interfaces/types";
 import { GetStaticPaths, GetStaticProps } from "next";
 import Link from "next/link";
+import projectDetail from "@/styles/Projects.module.scss";
 import React, { useState } from "react";
 
 interface Props {
@@ -23,20 +24,23 @@ const ProjectDetails: React.FC<Props> = ({ data }) => {
   console.log(currentImage);
   return (
     <>
-      <section className="project-details-page section-size">
-        <div className="wrapper-size">
-          <div className="image-part section-size py-5">
+      <section className={projectDetail.projectDetail}>
+        <div className={projectDetail.wrapper}>
+          <div className={projectDetail.projectImages}>
             <img src={`${currentImage}`} alt="" />
-            <div className="left-btn" onClick={handlePreviousImage}>
+            <div
+              className={projectDetail.leftBtn}
+              onClick={handlePreviousImage}
+            >
               <img src="/Image/icons/Main Button Left.png" alt="" />
             </div>
-            <div className="right-btn" onClick={handleNextImage}>
+            <div className={projectDetail.rightBtn} onClick={handleNextImage}>
               <img src="/Image/icons/Main Button.png" alt="" />
             </div>
           </div>
-          <div className="project-name py-5">
+          <div className={projectDetail.projectHeader}>
             <div>
-              <h2 className="pb-4">Млади за активно општество</h2>
+              <h2>Млади за активно општество</h2>
               <p>
                 Проектот ќе се фокусира на обезбедување и креирање иновативна
                 дигитална алатка која ќе обезбеди онлајн можност за учење на
@@ -45,37 +49,37 @@ const ProjectDetails: React.FC<Props> = ({ data }) => {
               </p>
             </div>
           </div>
-          <div className="project-purpose my-5">
-            <div className="project-purpose-title">
+          <div className={projectDetail.projectPurpose}>
+            <div className={projectDetail.title}>
               <h2>
                 Цел на <br /> проектот
               </h2>
             </div>
-            <div className="project-purpose-content">
+            <div className={projectDetail.text}>
               <p>{data.pupose}</p>
             </div>
           </div>
-          <div className="project-intent py-5">
-            <div className="project-intent-content">
+          <div className={projectDetail.projectTarget}>
+            <div className={projectDetail.content}>
               <h2>За кого е наменет овој проект?</h2>
               <p>{data.description}</p>
             </div>
-            <div className="project-intent-title">
+            <div className={projectDetail.title}>
               <img src="/Image/krik za koi lica 1.png" alt="" />
             </div>
           </div>
-          <div className="project-progress py-5">
-            <div className="progress">
+          <div className={projectDetail.projectProgress}>
+            <div className={projectDetail.progress}>
               <div style={{ width: `${data.completition}%` }}></div>
               <span>{data.completition}%</span>
             </div>
-            <div className="contact">
-              <div className="content">
-                <div className="interested">
+            <div className={projectDetail.contact}>
+              <div className={projectDetail.content}>
+                <div className={projectDetail.interested}>
                   <span>Заинтересиран/а си?</span>
                   <Link href={"/volunteeraplication"}>Пријави Се!</Link>
                 </div>
-                <div className="donate">
+                <div className={projectDetail.donate}>
                   <span>Сакаш да не поддржиш?</span>
                   <Link href={"/donate"}>Донирај</Link>
                 </div>

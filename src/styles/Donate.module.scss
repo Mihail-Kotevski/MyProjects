@@ -1,0 +1,171 @@
+@use "/src/styles/base/_colors.scss";
+
+.donatePage {
+  padding: 3rem 0;
+  width: 100%;
+  color: colors.$color-black;
+  h2 {
+    margin: 0 auto;
+    width: fit-content;
+  }
+  .menu {
+    width: 60%;
+    padding: 3rem 0;
+    text-align: center;
+    margin: 0 auto;
+    .buttons {
+      width: 100%;
+      display: flex;
+      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+      .button {
+        width: 50%;
+        font-weight: 600;
+        .activeBtn {
+          width: 99%;
+          border: 1px solid #fb5e3c;
+          outline: 4px solid #fb5e3c;
+          border-radius: 10px;
+        }
+        .unactiveBtn {
+          width: 99%;
+          outline: 1px solid black;
+        }
+      }
+    }
+  }
+  .donate {
+    padding: 100px;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 1px 2px 20px 1px rgba(185, 152, 152, 0.5);
+    border-radius: 30px;
+    .amounts {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 0 30px 0;
+      div {
+        width: 23%;
+        border: 2px solid black;
+        border-radius: 50px;
+        padding: 10px;
+        text-align: center;
+      }
+    }
+    .text {
+      width: 70%;
+      margin: 0px 0 30px 0;
+    }
+    .payMethod {
+      display: flex;
+      flex-direction: column;
+      p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+      }
+      input {
+        padding: 10px;
+        border: 2px solid black;
+        outline: none;
+        background-color: inherit;
+        width: 40%;
+        border-radius: 50px;
+        margin: 0px 0 30px 0;
+        color: black;
+      }
+      .donateChoice {
+        .card {
+          background-color: black;
+          margin-right: 10px;
+          border-radius: 50px;
+          padding: 22px 20px;
+          border: none;
+          width: 250px;
+        }
+        .paypall {
+          background-color: #fbb13c;
+          margin-left: 10px;
+          border-radius: 50px;
+          padding: 22px 20px;
+          border: none;
+          width: 250px;
+        }
+      }
+    }
+  }
+  .donateForm {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    form {
+      width: 80%;
+      margin: 100px auto;
+      input {
+        background-color: inherit;
+        outline: none;
+        border: 2px solid black;
+        border-radius: 50px;
+        padding: 14.4px 20px;
+        color: black;
+      }
+      .formContent {
+        display: flex;
+        gap: 20px;
+        .left {
+          width: 50%;
+          .inputContainer {
+            border-radius: 20px;
+            margin-bottom: 20px;
+            label {
+              padding-bottom: 5px;
+            }
+            input {
+              display: flex;
+              width: 100%;
+            }
+          }
+        }
+        .right {
+          width: 50%;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          .inputContainer {
+            width: 100%;
+            margin-bottom: 30px;
+            border-radius: 20px;
+            label {
+              padding-bottom: 5px;
+            }
+            input {
+              display: flex;
+              width: 100%;
+            }
+          }
+          .date {
+            padding: 0;
+            margin: 20px 0 10px 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            input {
+              width: 47%;
+            }
+          }
+          .submitBtn {
+            margin-bottom: 20px;
+            margin-top: 14px;
+            width: 100%;
+            background-color: #f3703a;
+            border: none;
+            outline: none;
+            border-radius: 50px;
+            padding: 16px;
+          }
+        }
+      }
+    }
+  }
+}

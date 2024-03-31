@@ -1,7 +1,10 @@
 import VolunteeurCard from "@/components/VolunteurCard";
+import { accesibilityContext } from "@/context/accesibilityContext";
 import { IVolonteer } from "@/interfaces/types";
+import volunteer from "@/styles/Volunteer.module.scss";
+import globalStyle from "@/styles/globalStyles.module.scss";
 import { GetServerSideProps, NextPage } from "next";
-import { useState } from "react";
+import { useContext, useState } from "react";
 
 interface Props {
   dataShortTerm: IVolonteer[];
@@ -9,30 +12,41 @@ interface Props {
 }
 
 const Volunteeurs: NextPage<Props> = ({ dataShortTerm, dataLongTerm }) => {
+  const { textSize } = useContext(accesibilityContext);
   const [term, setTerm] = useState(false);
   return (
     <>
-      <section className="volunteeurs-section section-size py-5">
-        <div className="wrapper-size">
-          <div className="menu">
-            <h2 className="py-4 XXL">Нашите Волонтери</h2>
-            <div className="buttons">
+      <section className={volunteer.volunteerPage}>
+        <div className={volunteer.wrapper}>
+          <div className={volunteer.menu}>
+            <h2 className={textSize ? globalStyle.XLText : globalStyle.LText}>
+              Нашите Волонтери
+            </h2>
+            <div className={volunteer.buttons}>
               <div onClick={() => setTerm(false)}>
-                <p className="L">Краток Рок</p>
+                <p className={textSize ? globalStyle.LText : globalStyle.MText}>
+                  Краток Рок
+                </p>
                 <div
-                  className={`${!term ? "active-btn" : "button-unactive"}`}
+                  className={`${
+                    !term ? volunteer.activeBtn : volunteer.unactiveBtn
+                  }`}
                 ></div>
               </div>
               <div onClick={() => setTerm(true)}>
-                <p className="L">Долг Рок</p>
+                <p className={textSize ? globalStyle.LText : globalStyle.MText}>
+                  Долг Рок
+                </p>
                 <div
-                  className={`${term ? "active-btn" : "button-unactive"}`}
+                  className={`${
+                    term ? volunteer.activeBtn : volunteer.unactiveBtn
+                  }`}
                 ></div>
               </div>
             </div>
           </div>
         </div>
-        <div className="content-container wrapper-size py-5">
+        <div className={volunteer.content}>
           <>
             {!term
               ? dataShortTerm.map((el) => (

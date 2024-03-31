@@ -1,0 +1,129 @@
+@use "/src/styles/base/_colors.scss";
+@import "/src/styles/utilities/_mixins.scss";
+
+// Accesibility
+
+.accesibility {
+  position: fixed;
+  right: 0;
+  top: 175px;
+  z-index: 9;
+  border-radius: 20px 0 0 20px;
+  overflow: hidden;
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+  .accesibilityBtn {
+    padding: 15px 10px;
+  }
+  .accesibilityMenu {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    border-radius: 0 0 20px 0;
+    overflow: hidden;
+    .header {
+      text-align: center;
+      color: white;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .wrapper {
+      padding: 0 22px 0 22px;
+      .textBtn {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        div {
+          span {
+            background-color: #fbf8f4;
+            padding: 3px 10px;
+            border-radius: 20px;
+            margin-right: 20px;
+          }
+        }
+      }
+      .buttons {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        gap: 30px;
+        .left {
+          div {
+            width: 300px;
+            margin-bottom: 30px;
+            padding: 8px 16px 0 16px;
+            border-radius: 20px;
+          }
+        }
+        .right {
+          div {
+            width: 300px;
+            margin-bottom: 30px;
+            padding: 8px 16px 0 16px;
+            border-radius: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Mobile Size
+
+@media (max-width: 425px) {
+  .accesibility {
+    overflow: visible;
+    .accesibilityBtn {
+      rotate: -90deg;
+      right: 0 !important;
+      border-radius: 20px 20px 0 0;
+      margin-right: -63px;
+    }
+    .accesibilityMenu {
+      width: 320px;
+      overflow: hidden;
+      border-radius: 20px 0 0 20px;
+      .wrapper {
+        .textBtn {
+          span {
+            font-size: 14px;
+          }
+          svg {
+            width: 40px;
+          }
+        }
+        .buttons {
+          .left {
+            div {
+              width: 120px;
+              margin-bottom: 10px;
+              padding: 2px 2px 2px 2px;
+              border-radius: 20px;
+              svg {
+                width: 30px;
+              }
+              p {
+                font-size: 14px;
+              }
+            }
+          }
+          .right {
+            div {
+              width: 120px;
+              margin-bottom: 10px;
+              padding: 2px 2px 2px 2px;
+              border-radius: 20px;
+              svg {
+                width: 30px;
+              }
+              p {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

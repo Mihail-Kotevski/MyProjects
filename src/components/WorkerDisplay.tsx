@@ -1,4 +1,5 @@
 import { Workers } from "@/interfaces/types";
+import ourworkers from "@/styles/OurWorkers.module.scss";
 import Link from "next/link";
 
 interface Prop {
@@ -8,7 +9,7 @@ interface Prop {
 const WorkerDisplay: React.FC<Prop> = ({ data }) => {
   return (
     <>
-      <div className="worker" id={`${data.id}`}>
+      <div className={ourworkers.worker} id={`${data.id}`}>
         <Link href={`/ourteam/${data.id}`}>
           <img src={data.image} alt={"name"} />
         </Link>

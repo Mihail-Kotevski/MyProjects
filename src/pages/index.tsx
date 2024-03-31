@@ -1,80 +1,106 @@
 import Card from "@/components/Card";
+import home from "../styles/Home.module.scss";
+import globalStyle from "@/styles/globalStyles.module.scss";
 import { HomePage } from "@/interfaces/types";
 import { GetServerSideProps } from "next";
 import Link from "next/link";
+import { useContext } from "react";
+import { accesibilityContext } from "@/context/accesibilityContext";
 
 interface Props {
   data: HomePage;
 }
 
 export default function Home({ data }: Props) {
+  const { contrast, textSize } = useContext(accesibilityContext);
   return (
     <>
-      <section className="banner-section">
-        {/* <img src="/Image/56254 1.jpg" alt="" /> */}
-        <div className="banner-header">
-          <h1 className="XXL">{data.title}</h1>
+      <section className={home.banner}>
+        <div className={home.header}>
+          <h1 className={textSize ? globalStyle.XLText : globalStyle.LText}>
+            {data.title}
+          </h1>
           <div>
-            <h3 className="L">{data.preTitle}</h3>
-            <p className="M">{data.textContent}</p>
-            <Link className="BTN" href={"/about"}>
+            <h3 className={textSize ? globalStyle.LText : globalStyle.MText}>
+              {data.preTitle}
+            </h3>
+            <p className={textSize ? globalStyle.MText : globalStyle.SText}>
+              {data.textContent}
+            </p>
+            <Link
+              className={
+                textSize ? globalStyle.BTNTextBigger : globalStyle.BTNText
+              }
+              href={"/about"}
+            >
               Повеќе за нас
             </Link>
           </div>
         </div>
       </section>
 
-      <section className="soon-section">
-        <div className="soon-content">
-          <div className="dark-half">
-            <h3 className="orange-color L">{data.soon.black.title}</h3>
-            <h5 className="white M">{data.soon.black.pretitle}</h5>
+      <section className={home.soon}>
+        <div className={home.content}>
+          <div className={home.dark}>
+            <h3 className={textSize ? globalStyle.LText : globalStyle.MText}>
+              {data.soon.black.title}
+            </h3>
+            <h5 className={textSize ? globalStyle.MText : globalStyle.SText}>
+              {data.soon.black.pretitle}
+            </h5>
             <div className="">
-              <p className="white S">{data.soon.black.description}</p>
+              <p className={textSize ? globalStyle.MText : globalStyle.SText}>
+                {data.soon.black.description}
+              </p>
             </div>
-            <div className="soon-btn">
+            <div className={home.btn}>
               <Link
                 href={"/"}
-                className="black btn-style bacground-light-yellow orange BTN
-          "
+                className={`${globalStyle.purpleBg} ${
+                  textSize ? globalStyle.BTNTextBigger : globalStyle.BTNText
+                }`}
               >
                 Види Повеќе
               </Link>
               <Link
                 href={"/volunteeraplication"}
-                className="black btn-style bacground-light-purple BTN"
+                className={`${globalStyle.bgColorOrange} ${
+                  textSize ? globalStyle.BTNTextBigger : globalStyle.BTNText
+                }`}
               >
                 Пријави се!
               </Link>
             </div>
           </div>
-          <div className="light-half">
-            <div className="text-container">
-              <h2>{data.soon.white.title}</h2>
-              <h3 className="">
+          <div className={home.light}>
+            <div className={home.container}>
+              <h2 className={textSize ? globalStyle.LText : globalStyle.MText}>
+                {data.soon.white.title}
+              </h2>
+              <h3 className={textSize ? globalStyle.MText : globalStyle.SText}>
                 {data.soon.white.place}, {data.soon.white.time}
               </h3>
             </div>
-            <div className="circle-wrap ">
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="circle"></div>
-              <div className="circle"></div>
+            <div className={home.circleContainer}>
+              <div className={home.circle}></div>
+              <div className={home.circle}></div>
+              <div className={home.circle}></div>
+              <div className={home.circle}></div>
+              <div className={home.circle}></div>
+              <div className={home.circle}></div>
+              <div className={home.circle}></div>
+              <div className={home.circle}></div>
+              <div className={home.circle}></div>
+              <div className={home.circle}></div>
+              <div className={home.circle}></div>
+              <div className={home.circle}></div>
+              <div className={home.circle}></div>
+              <div className={home.circle}></div>
+              <div className={home.circle}></div>
+              <div className={home.circle}></div>
+              <div className={home.circle}></div>
             </div>
-            <div className="date">
+            <div className={home.date}>
               <div>
                 <span className="num-1">2</span>
                 <p className="num-2">3</p>
@@ -85,42 +111,59 @@ export default function Home({ data }: Props) {
           </div>
         </div>
       </section>
-      <section className="info-section">
-        <div className="content">
+      <section className={home.info}>
+        <div className={home.content}>
           {data.krikSucces.map((el, index) => {
             return (
-              <div key={index} className="numbers-card">
-                <h2 className="NUM-SIZE red-color">{el.number}+</h2>
+              <div
+                key={index}
+                className={`${home.numberCard} ${
+                  contrast ? globalStyle.redColorContrast : globalStyle.redColor
+                }`}
+              >
+                <h2
+                  className={` ${
+                    textSize ? globalStyle.NumTextBigger : globalStyle.NumText
+                  }`}
+                >
+                  {el.number}+
+                </h2>
                 <span>{el.text}</span>
               </div>
             );
           })}
         </div>
       </section>
-      <section className="video-section">
-        <div className="content">
-          <div className="video"></div>
-          <div className="info">
-            <h3 className="L">
+      <section className={home.videoSection}>
+        <div className={home.content}>
+          <div className={home.video}></div>
+          <div className={home.info}>
+            <h3 className={textSize ? globalStyle.LText : globalStyle.MText}>
               Стани <br />
               волонтер
             </h3>
-            <p className="XS">
+            <p className={textSize ? globalStyle.MText : globalStyle.SText}>
               Сакаш да работиш со млади лица? Оваа можност е токму за тебе.
             </p>
-            <Link className="BTN" href={"/volunteeraplication"}>
+            <Link
+              className={`${globalStyle.bgColorOrange} ${
+                textSize ? globalStyle.BTNTextBigger : globalStyle.BTNText
+              }`}
+              href={"/volunteeraplication"}
+            >
               Придружи ни се
             </Link>
           </div>
         </div>
       </section>
-
-      <section className="latest-news-section">
-        <div className="wrapper">
-          <h1 className="XXL">Нашите услуги</h1>
-          <div className="content-wrapper">
+      <section className={home.latestNews}>
+        <div className={home.wrapper}>
+          <h2 className={textSize ? globalStyle.XLText : globalStyle.LText}>
+            Нашите услуги
+          </h2>
+          <div className={home.contentWrapper}>
             {data.news.map((el) => (
-              <div key={el.id} className="card-wrap">
+              <div key={el.id} className={home.cardWrapper}>
                 <Card
                   id={el.id}
                   image={el.image}
@@ -131,23 +174,32 @@ export default function Home({ data }: Props) {
               </div>
             ))}
           </div>
-          <Link className="see-more BTN" href={"/newsletter"}>
+          <Link
+            className={`${home.seeMore} ${
+              textSize ? globalStyle.BTNTextBigger : globalStyle.BTNText
+            }`}
+            href={"/newsletter"}
+          >
             Види за цел Месец
           </Link>
         </div>
       </section>
-      <section className="services-section">
-        <div className="wrapper-size">
+      <section className={home.services}>
+        <div className={home.wrapper}>
           <h1 className="XXL">Нашите услуги</h1>
-          <div className="services-wrappeer">
+          <div className={home.servicesWrapper}>
             <div
-              className="image me-2"
+              className={home.image}
               style={{ backgroundImage: 'url("/Image/centar krikni 2 3.png")' }}
             ></div>
-            <div className="text ms-2">
+            <div className={home.text}>
               <div>
-                <h3 className="my-2 L">01 Мултифункционален центар Крикни</h3>
-                <p className="pe-5 S">
+                <h3
+                  className={textSize ? globalStyle.LText : globalStyle.MText}
+                >
+                  01 Мултифункционален центар Крикни
+                </h3>
+                <p className={textSize ? globalStyle.MText : globalStyle.SText}>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Laboriosam sequi quae, in eaque repellat itaque, perferendis
                   ab aut corrupti laudantium nesciunt quidem odit quasi
@@ -172,8 +224,12 @@ export default function Home({ data }: Props) {
                 </Link>
               </div>
               <div>
-                <h3 className="L">02 Независни станбени единици</h3>
-                <p className="pe-5 S">
+                <h3
+                  className={textSize ? globalStyle.LText : globalStyle.MText}
+                >
+                  02 Независни станбени единици
+                </h3>
+                <p className={textSize ? globalStyle.MText : globalStyle.SText}>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Laboriosam sequi quae, in eaque repellat itaque, perferendis
                   ab aut corrupti laudantium nesciunt quidem odit quasi
@@ -198,8 +254,12 @@ export default function Home({ data }: Props) {
                 </Link>
               </div>
               <div>
-                <h3 className="L">03 советувалиште за Млади и Родители</h3>
-                <p className="pe-5 S">
+                <h3
+                  className={textSize ? globalStyle.LText : globalStyle.MText}
+                >
+                  03 советувалиште за Млади и Родители
+                </h3>
+                <p className={textSize ? globalStyle.MText : globalStyle.SText}>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Laboriosam sequi quae, in eaque repellat itaque, perferendis
                   ab aut corrupti laudantium nesciunt quidem odit quasi
@@ -227,10 +287,12 @@ export default function Home({ data }: Props) {
           </div>
         </div>
       </section>
-      <section className="partners-section">
-        <h1 className="XXL">Партнери</h1>
-        <div className="wrapper pause">
-          <div className="content pause">
+      <section className={home.partners}>
+        <h1 className={textSize ? globalStyle.XLText : globalStyle.LText}>
+          Партнери
+        </h1>
+        <div className={home.wrapper}>
+          <div className={home.content}>
             {data.partners.map((el, index) => (
               <img key={index} src={el.image} alt="" />
             ))}

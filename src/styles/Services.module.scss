@@ -1,0 +1,77 @@
+@use "/src/styles/base/_colors.scss";
+
+.servicesPage {
+  width: 100%;
+  padding: 50px 0;
+  color: colors.$color-black;
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    .header {
+      .menu {
+        width: 80%;
+        margin: 0 auto;
+        .buttons {
+          display: flex;
+          text-align: center;
+          width: 80%;
+          margin: 0 auto;
+          padding-bottom: 60px;
+        }
+        .button {
+          width: 33.333%;
+          font-weight: 600;
+          position: relative;
+          .activeBtn {
+            width: 99%;
+            z-index: 8;
+            border: 1px solid #fb5e3c;
+            outline: 3px solid #fb5e3c;
+            border-radius: 10px;
+            position: absolute;
+            bottom: 0;
+          }
+          .unactiveBtn {
+            width: 100%;
+            z-index: 6;
+            outline: 1px solid black;
+            position: absolute;
+            bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  .contentWrap {
+    width: 100%;
+    .content {
+      width: 100%;
+      margin-bottom: 30px;
+      .text {
+        line-height: 30px;
+      }
+    }
+    .gallery {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .cube {
+        width: 32.333%;
+        border-radius: 30px;
+        overflow: hidden;
+      }
+      .rectangle {
+        width: 66.333%;
+        border-radius: 30px;
+        overflow: hidden;
+        padding-bottom: 15px;
+        filter: grayscale(100%);
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

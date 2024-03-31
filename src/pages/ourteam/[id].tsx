@@ -1,22 +1,30 @@
-import { IMenagementBoard, Workers } from "@/interfaces/types";
+import { Workers } from "@/interfaces/types";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
+import ourteamID from "@/styles/OurWorkers.module.scss";
+import globalStyle from "@/styles/globalStyles.module.scss";
+import { useContext } from "react";
+import { accesibilityContext } from "@/context/accesibilityContext";
 
 interface Props {
   data: Workers;
 }
 
 const Member: NextPage<Props> = ({ data }) => {
-  console.log(data);
+  const { textSize } = useContext(accesibilityContext);
   return (
     <>
-      <section className="member-section py-5">
-        <div className="wrapper py-5">
-          <div className="img">
+      <section className={ourteamID.worker}>
+        <div className={ourteamID.wrapper}>
+          <div className={ourteamID.imgContainer}>
             <img src={`${data.image}`} alt="" />
           </div>
-          <div className="info ps-3">
-            <h2 className="XL">{data.name}</h2>
-            <p className="S">{data.description}</p>
+          <div className={ourteamID.info}>
+            <h2 className={textSize ? globalStyle.LText : globalStyle.MText}>
+              {data.name}
+            </h2>
+            <p className={textSize ? globalStyle.MText : globalStyle.SText}>
+              {data.description}
+            </p>
           </div>
         </div>
       </section>

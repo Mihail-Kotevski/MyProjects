@@ -188,3 +188,20 @@ export interface ISingleNews {
     }
   ];
 }
+
+export interface Accesibility {
+  TextSize: boolean;
+  handleText: () => void;
+  cursor: boolean;
+  handleCursor: () => void;
+  contrast: boolean;
+  handleContrast: () => void;
+  animation: boolean;
+  handleAnimation: () => void;
+  Sreader: boolean;
+  handleSreader: () => void;
+  ReadingM: boolean;
+  handleReadingM: () => void;
+  saturation: boolean;
+  handleSaturation: () => void;
+}

@@ -1,0 +1,114 @@
+@import "/src/styles/base/colors";
+/* About Page  */
+
+.aboutInfo {
+  width: 100%;
+  padding: 100px 0 20px 0;
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+    color: $color-black;
+    .content {
+      width: 100%;
+      display: flex;
+      gap: 20px;
+      img {
+        filter: grayscale(100%);
+        width: 45%;
+        object-fit: cover;
+        border-radius: 30px;
+      }
+      div {
+        width: 55%;
+      }
+    }
+  }
+}
+
+/* About Krik*/
+
+.aboutKrik {
+  width: 100%;
+  padding: 30px 0 100px 0;
+  .header {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .wrapper {
+    width: 100%;
+    border-top: 2px;
+    &:last-child {
+      border-bottom: 2px solid $color-black;
+    }
+    .aboutCard {
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      gap: 30px;
+      padding: 20px 0;
+      width: 80%;
+      h4 {
+        width: 25%;
+        color: $color-orange;
+      }
+      p {
+        width: 75%;
+        color: $color-black;
+      }
+    }
+  }
+}
+
+/* About Questions  */
+
+.questions {
+  width: 100%;
+  margin: 50px 0 200px 0;
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    h2 {
+      margin: 45px 0 45px 0;
+    }
+    .questionContainer {
+      .question {
+        box-shadow: 1px 2px 20px 1px rgba(185, 152, 152, 0.5);
+        padding: 25px;
+        border-radius: 30px;
+        margin-bottom: 45px;
+        color: $color-black;
+        background-color: $color-white;
+        &:hover {
+          background-color: $color-purple;
+        }
+        .questionHeader {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          img {
+            width: 30px;
+          }
+        }
+      }
+      .answer {
+        box-shadow: 1px 2px 20px 1px rgba(185, 152, 152, 0.5);
+        padding: 25px;
+        border-radius: 30px;
+        margin-bottom: 45px;
+        background-color: $color-purple;
+        color: $color-black;
+        .answerHeader {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          img {
+            width: 30px;
+          }
+        }
+      }
+    }
+  }
+}

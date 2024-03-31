@@ -1,0 +1,65 @@
+.newsletterBanner {
+  background-color: #191919;
+  position: relative;
+  padding: 50px 0 50px 0;
+  p:nth-child(1) {
+    font-size: 150px;
+    font-weight: 800;
+    color: white;
+    width: -moz-fit-content;
+    width: fit-content;
+    line-height: 140px;
+    margin: 0 0 0 8%;
+  }
+  p:nth-child(2) {
+    -webkit-text-stroke: 1px white;
+    font-size: 200px;
+    line-height: 243.8px;
+    color: #191919;
+    margin: 0 0 0 40%;
+  }
+}
+
+.newsletterContent {
+  width: 100%;
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    height: inherit;
+    padding: 0px 0 50px 0;
+    .vl {
+      border-left: 1px solid #191919;
+      position: absolute;
+      height: 100%;
+      left: 50%;
+      transform: translate(50%, 0);
+    }
+    .content {
+      padding: 140px 0 0 0;
+      .wrapper {
+        width: 100%;
+        display: flex;
+        position: relative;
+        gap: 200px;
+        div:nth-child(1) {
+          text-align: end;
+        }
+        .div:nth-child(2) {
+          position: relative;
+        }
+        .dot {
+          position: absolute;
+          left: 50%;
+          top: 5%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+    .content:nth-child(3) {
+      .wrapper {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+}

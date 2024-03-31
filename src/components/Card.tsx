@@ -1,4 +1,6 @@
 import Link from "next/link";
+import CardStyle from "@/styles/components/NewsCard.module.scss";
+
 interface Prop {
   id: string;
   image: string;
@@ -11,12 +13,12 @@ const Card: React.FC<Prop> = ({ id, image, date, description, link }) => {
     <>
       <div
         key={id}
-        className="card-component"
+        className={CardStyle.cardComponent}
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('${image}')`,
         }}
       >
-        <div className="content">
+        <div className={CardStyle.content}>
           <div>
             <span className="span-yellow">ACTIVNOSTI</span>
             <span className=" card-text">

@@ -2,13 +2,12 @@ import WorkerDisplay from "@/components/WorkerDisplay";
 import { IMenagementBoard, Workers } from "@/interfaces/types";
 import { GetStaticProps, NextPage } from "next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCircleChevronLeft,
-  faCircleChevronRight,
-  faChevronRight,
-} from "@fortawesome/free-solid-svg-icons";
-import React, { useState } from "react";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import globalStyle from "@/styles/globalStyles.module.scss";
+import ourworkers from "@/styles/OurWorkers.module.scss";
+import React, { useContext, useState } from "react";
 import Link from "next/link";
+import { accesibilityContext } from "@/context/accesibilityContext";
 
 interface Props {
   data: Workers[];
@@ -16,6 +15,7 @@ interface Props {
 }
 
 const OurTeam: NextPage<Props> = ({ data, dataMBoard }) => {
+  const { textSize } = useContext(accesibilityContext);
   const worker = data;
   const [currentWorkerIndex, setCurrentWorkerIndex] = useState(0);
   const handleNextWorker = () => {
@@ -36,21 +36,23 @@ const OurTeam: NextPage<Props> = ({ data, dataMBoard }) => {
 
   return (
     <>
-      <section className="ourteam-workers-section py-5">
-        <div className="content-wrapper pt-5 ">
-          <h1 className="XXL">Запознајте го нашиот тим</h1>
+      <section className={ourworkers.ourTeam}>
+        <div className={ourworkers.wrapper}>
+          <h1 className={textSize ? globalStyle.XLText : globalStyle.LText}>
+            Запознајте го нашиот тим
+          </h1>
           {worker ? (
-            <div className="content">
-              <div className="workers">
+            <div className={ourworkers.content}>
+              <div className={ourworkers.workers}>
                 <WorkerDisplay data={previousWorker} />
-                <div className="current-worker" id={`${currentWorker.id}`}>
+                <div className={ourworkers.cWorker} id={`${currentWorker.id}`}>
                   <Link href={`/ourteam/${currentWorker.id}`}>
                     <img src={currentWorker.image} alt={"name"} />
                   </Link>
                 </div>
                 <WorkerDisplay data={nextWorker} />
               </div>
-              <div>
+              <div className={ourworkers.menu}>
                 <svg
                   onClick={handlePreviousWorker}
                   width="80"
@@ -86,11 +88,27 @@ const OurTeam: NextPage<Props> = ({ data, dataMBoard }) => {
                     fill="white"
                   />
                 </svg>
-                <div className="info">
-                  <h2 className="L">{currentWorker.name}</h2>
-                  <p className="M">{currentWorker.position}</p>
+                <div className={ourworkers.info}>
+                  <h2
+                    className={
+                      textSize ? globalStyle.XLText : globalStyle.LText
+                    }
+                  >
+                    {currentWorker.name}
+                  </h2>
+                  <p
+                    className={textSize ? globalStyle.LText : globalStyle.MText}
+                  >
+                    {currentWorker.position}
+                  </p>
                   <a href={currentWorker.linkedIn} target="_blank ">
-                    <span className="M">LinkedIn</span>
+                    <span
+                      className={
+                        textSize ? globalStyle.MText : globalStyle.SText
+                      }
+                    >
+                      LinkedIn
+                    </span>
                     <FontAwesomeIcon icon={faChevronRight} />
                   </a>
                 </div>
@@ -101,18 +119,38 @@ const OurTeam: NextPage<Props> = ({ data, dataMBoard }) => {
           )}
         </div>
       </section>
-      <section className="upraven-odbor">
-        <h1 className="XXL">Членови на управниот одбор</h1>
-        <div className="member-wrapper">
+      <section className={ourworkers.upravenOdbor}>
+        <h1 className={textSize ? globalStyle.XLText : globalStyle.LText}>
+          Членови на управниот одбор
+        </h1>
+        <div className={ourworkers.wrapper}>
           {dataMBoard.map((el) => {
             return (
-              <div key={el.id} className="content-wrapper">
-                <div className="content">
+              <div key={el.id} className={ourworkers.memberWrapper}>
+                <div className={ourworkers.content}>
                   <img src={`${el.image}`} alt="" />
                   <div>
-                    <h3 className="L">{el.title}</h3>
-                    <h5 className="pb-4 M">{el.preTitle}</h5>
-                    <p className="S">{el.description}</p>
+                    <h3
+                      className={
+                        textSize ? globalStyle.LText : globalStyle.MText
+                      }
+                    >
+                      {el.title}
+                    </h3>
+                    <h5
+                      className={
+                        textSize ? globalStyle.LText : globalStyle.MText
+                      }
+                    >
+                      {el.preTitle}
+                    </h5>
+                    <p
+                      className={
+                        textSize ? globalStyle.MText : globalStyle.SText
+                      }
+                    >
+                      {el.description}
+                    </p>
                   </div>
                 </div>
               </div>

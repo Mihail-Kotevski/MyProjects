@@ -1,0 +1,93 @@
+@use "/src/styles/base/colors";
+@import "/src/styles/base/colors";
+
+@mixin CTA-Button {
+  border-radius: 30px;
+  padding: 10px;
+  width: 100%;
+}
+
+@mixin XL-Text {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 64px;
+}
+@mixin L-Text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 48px;
+}
+@mixin M-Text {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+}
+@mixin S-Text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+@mixin XS-Text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+// colors
+
+@mixin orange {
+  background-color: #ff9c00;
+}
+
+@mixin orange-contrast {
+  background-color: #fbb13c;
+}
+
+@mixin orangeText {
+  background-color: #ff9c00;
+}
+
+@mixin orangeTextContrast {
+  background-color: #fbb13c;
+}
+@mixin prupleBg {
+  background-color: #b8afda;
+}
+@mixin red {
+  background-color: #fb5e3c;
+}
+
+@mixin red-contrast {
+  background-color: #f82d00;
+}
+@mixin redColor {
+  color: #fb5e3c;
+}
+@mixin redColorContrast {
+  color: #f82d00;
+}
+@mixin bgWhite {
+  background-color: #fbf8f4;
+}
+@mixin NUM-SIZE {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90.4px;
+}
+@mixin NUM-SIZE-BIGGER {
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 100.4px;
+}
+
+@mixin BTN {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+@mixin BTN-Larger {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+}

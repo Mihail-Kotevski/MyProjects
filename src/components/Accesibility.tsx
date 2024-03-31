@@ -1,142 +1,52 @@
-import { useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import AccesibilityStyle from "@/styles/layout/Accessibility.module.scss";
+import { accesibilityContext } from "@/context/accesibilityContext";
+import globalStyle from "@/styles/globalStyles.module.scss";
 
 const Accesibility: React.FC = () => {
   const [toggle, setToggle] = useState(false);
-  const [paragraphSize, setParagraphSize] = useState(false);
-  const [cursorSize, setCursor] = useState(false);
-  const [contrast, setcontrast] = useState(false);
-  const [screenRead, setscreenRead] = useState(false);
-  const [readingMask, setreadingMask] = useState(false);
-  const [saturate, setsaturate] = useState(false);
-  const [paused, setpaused] = useState(false);
-  const increaseFontSize = () => {
-    setParagraphSize(!paragraphSize);
-  };
+  const {
+    textSize,
+    cursor,
+    contrast,
+    animation,
+    Sreader,
+    ReadingM,
+    saturation,
+    handleBtn,
+  } = useContext(accesibilityContext);
 
   return (
     <>
-      <style jsx global>{`
-        @media (max-width: 425px) {
-          .XXL {
-            font-size: ${!paragraphSize ? "18" : "23"}px !important;
-            font-weight: 800 !important;
-            line-height: 24px !important;
-          }
-          .L {
-            font-size: ${!paragraphSize ? "18" : "23"}px !important;
-            font-weight: 700 !important;
-            line-height: 24px !important;
-          }
-          .M {
-            font-size: ${!paragraphSize ? "14" : "18"}px !important;
-            font-weight: ${!paragraphSize ? "400" : "800"} !important;
-            line-height: 24px !important;
-          }
-          .BTN {
-            font-size: ${!paragraphSize ? "12" : "17"}px !important;
-            font-weight: 700 !important;
-            line-height: 32px !important;
-          }
-          .NUM-SIZE {
-            font-size: ${!paragraphSize ? "32" : "40"}px !important;
-            font-weight: 800 !important;
-            line-height: 40.16px !important;
-          }
-          .S {
-            font-size: ${!paragraphSize ? "12" : "17"}px !important;
-            line-height: 24px !important;
-          }
-          .XS {
-            font-size: ${!paragraphSize ? "12" : "16"}px !important;
-            line-height: 24px !important;
-          }
-        }
-        .XXL {
-          font-size: ${!paragraphSize ? "56" : "72"}px;
-          font-weight: ${!paragraphSize ? "800" : "900"};
-          line-height: 72px;
-        }
-        .XL {
-          font-size: ${!paragraphSize ? "48" : "60"}px;
-          font-weight: ${!paragraphSize ? "800" : "900"};
-          line-height: 64px;
-        }
-        .L {
-          font-size: ${!paragraphSize ? "32" : "40"}px;
-          font-weight: ${!paragraphSize ? "700" : "900"};
-          line-height: 48px;
-        }
-        .M {
-          font-size: ${!paragraphSize ? "24" : "36"}px;
-          font-weight: ${!paragraphSize ? "700" : "800"};
-          line-height: 40px;
-        }
-        .S {
-          font-size: ${!paragraphSize ? "20" : "24"}px;
-          font-weight: ${!paragraphSize ? "400" : "600"};
-          line-height: 40px;
-        }
-        .XS {
-          font-size: 16px;
-          font-weight: 400;
-          line-height: 24px;
-        }
-        .NUM-SIZE {
-          font-weight: 800;
-          font-size: ${!paragraphSize ? "80" : "100"}px;
-          line-height: 100.4px;
-        }
-        .BTN {
-          font-size: ${!paragraphSize ? "24" : "32"}px;
-          font-weight: ${!paragraphSize ? "700" : "900"};
-          line-height: 32px;
-        }
-
-        .orange {
-          background-color: ${contrast ? "#FF9C00" : "#FBB13C"};
-        }
-        .orange-color {
-          color: ${contrast ? "#FF9C00" : "#FBB13C"};
-        }
-        .red {
-          background-color: ${contrast ? "#F82D00" : "#FB5E3C"};
-        }
-        .red-color {
-          color: ${contrast ? "#F82D00" : "#FB5E3C"};
-        }
-
-        ${paused ? ".pause {animation-play-state: paused !important; }" : ""}
-
-        body {
-          cursor: ${cursorSize
-            ? 'url("/Image/icons/accesibility/Vector.png"), auto;'
-            : ""};
-        }
-        a:hover,
-        button:hover {
-          cursor: ${cursorSize
-            ? 'url("/Image/icons/accesibility/Vector.png"), auto;'
-            : ""};
-        }
-        ${saturate ? "html {filter: saturate(60%);}" : ""}
-      `}</style>
-      <div className="accesibility">
+      <div className={AccesibilityStyle.accesibility}>
         {toggle ? (
           <div
-            className={`accesibility-menu ${
-              toggle ? "accesibility-menu-block" : "accesibility-menu-none"
+            className={`${AccesibilityStyle.accesibilityMenu} ${
+              contrast
+                ? AccesibilityStyle.bgColorOrange
+                : AccesibilityStyle.bgColorC
             }`}
           >
-            <div className="header red" onClick={() => setToggle(!toggle)}>
+            <div
+              className={`${AccesibilityStyle.header}  ${
+                contrast
+                  ? globalStyle.bgColorOrange
+                  : globalStyle.bgColorOrangeContrast
+              }`}
+              onClick={() => setToggle(!toggle)}
+            >
               <span>Пристапност</span>
             </div>
-            <div className="wrapper">
-              <div className="text-size" onClick={increaseFontSize}>
+            <div className={AccesibilityStyle.wrapper}>
+              <div
+                className={AccesibilityStyle.textBtn}
+                onClick={() => handleBtn("textSize")}
+              >
                 <div>
                   <span>XL</span>
                   <span>Oversized Widget</span>
                 </div>
-                {paragraphSize ? (
+                {textSize ? (
                   <svg
                     width="86"
                     height="48"
@@ -164,15 +74,13 @@ const Accesibility: React.FC = () => {
                   </svg>
                 )}
               </div>
-              <div className="buttons-container">
-                <div className="left">
+              <div className={AccesibilityStyle.buttons}>
+                <div className={AccesibilityStyle.left}>
                   <div
-                    onClick={() => setCursor(!cursorSize)}
-                    className={`cursor ${
-                      cursorSize ? "accesibility-active" : ""
-                    }`}
+                    onClick={() => handleBtn("cursor")}
+                    className={cursor ? globalStyle.bgRed : globalStyle.bgWhite}
                   >
-                    {!cursorSize ? (
+                    {!cursor ? (
                       <svg
                         width="54"
                         height="52"
@@ -209,9 +117,11 @@ const Accesibility: React.FC = () => {
                   </div>
                   <div
                     onClick={() => {
-                      setcontrast(!contrast);
+                      handleBtn("contrast");
                     }}
-                    className={`${contrast ? "accesibility-active" : ""}`}
+                    className={
+                      contrast ? globalStyle.bgRed : globalStyle.bgWhite
+                    }
                   >
                     {contrast ? (
                       <svg
@@ -243,10 +153,12 @@ const Accesibility: React.FC = () => {
                     <p>Contrast</p>
                   </div>
                   <div
-                    onClick={() => setpaused(!paused)}
-                    className={`${paused ? "accesibility-active" : ""}`}
+                    onClick={() => handleBtn("animation")}
+                    className={
+                      animation ? globalStyle.bgRed : globalStyle.bgWhite
+                    }
                   >
-                    {paused ? (
+                    {animation ? (
                       <svg
                         width="52"
                         height="52"
@@ -282,12 +194,14 @@ const Accesibility: React.FC = () => {
                     <p>Pause Animation</p>
                   </div>
                 </div>
-                <div className="right">
+                <div className={AccesibilityStyle.right}>
                   <div
-                    onClick={() => setscreenRead(!screenRead)}
-                    className={`${screenRead ? "accesibility-active" : ""}`}
+                    onClick={() => handleBtn("Sreader")}
+                    className={
+                      Sreader ? globalStyle.bgRed : globalStyle.bgWhite
+                    }
                   >
-                    {screenRead ? (
+                    {Sreader ? (
                       <svg
                         width="52"
                         height="52"
@@ -323,10 +237,12 @@ const Accesibility: React.FC = () => {
                     <p>Screen Reader</p>
                   </div>
                   <div
-                    onClick={() => setreadingMask(!readingMask)}
-                    className={`${readingMask ? "accesibility-active" : ""}`}
+                    onClick={() => handleBtn("ReadingM")}
+                    className={
+                      ReadingM ? globalStyle.bgRed : globalStyle.bgWhite
+                    }
                   >
-                    {readingMask ? (
+                    {ReadingM ? (
                       <svg
                         width="104"
                         height="52"
@@ -408,10 +324,12 @@ const Accesibility: React.FC = () => {
                     <p>Reading Mask</p>
                   </div>
                   <div
-                    onClick={() => setsaturate(!saturate)}
-                    className={`${saturate ? "accesibility-active" : ""}`}
+                    onClick={() => handleBtn("saturation")}
+                    className={
+                      saturation ? globalStyle.bgRed : globalStyle.bgWhite
+                    }
                   >
-                    {saturate ? (
+                    {saturation ? (
                       <svg
                         width="46"
                         height="52"
@@ -448,8 +366,10 @@ const Accesibility: React.FC = () => {
         ) : (
           <div
             onClick={() => setToggle(!toggle)}
-            className={`header accesibility-btn red ${
-              !toggle ? "accesibility-menu-block" : "accesibility-menu-none"
+            className={`${AccesibilityStyle.accesibilityBtn}  ${
+              contrast
+                ? globalStyle.bgColorOrange
+                : globalStyle.bgColorOrangeContrast
             }`}
           >
             Пристапност

@@ -1,6 +1,8 @@
 import { ISingleNews } from "@/interfaces/types";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import { useState } from "react";
+import NewsDetail from "@/styles/NewsDetail.module.scss";
+
 interface Props {
   data: ISingleNews;
 }
@@ -18,20 +20,20 @@ const NewsletterThree: NextPage<Props> = ({ data }) => {
   const currentImage = imageData[image];
   return (
     <>
-      <section className="newsletter-third-page section-size">
-        <div className="wrapper wrapper-size">
-          <div className="content section-size">
-            <div className="image-container">
+      <section className={NewsDetail.newsDetailInfo}>
+        <div className={NewsDetail.wrapper}>
+          <div className={NewsDetail.contentOne}>
+            <div className={NewsDetail.image}>
               <img src={data.image} alt="" />
             </div>
-            <div className="text-container">
+            <div className={NewsDetail.text}>
               <span className="M">{data.date}</span>
               <h3 className="XXL">{data.title}</h3>
               <p className="S">{data.descriptionOne}</p>
             </div>
           </div>
-          <div className="content-two section-size">
-            <div className="text-container">
+          <div className={NewsDetail.contentTwo}>
+            <div className={NewsDetail.text}>
               <p className="S">{data.descriptionTwo}</p>
             </div>
             <div className="image-container">
@@ -40,15 +42,15 @@ const NewsletterThree: NextPage<Props> = ({ data }) => {
           </div>
         </div>
       </section>
-      <section className="newsletter-third-page-section-two section-size">
-        <div className="wrapper wrapper-size">
+      <section className={NewsDetail.newsDetailImages}>
+        <div className={NewsDetail.wrapper}>
           <h2 className="L">Галерија со активности:</h2>
-          <div className="content section-size">
-            <img className="carausel-img" src={`${currentImage.image}`} alt="" />
-            <div className="left-btn" onClick={handlePreviousImage}>
+          <div className={NewsDetail.content}>
+            <img src={`${currentImage.image}`} alt="" />
+            <div className={NewsDetail.leftBtn} onClick={handlePreviousImage}>
               <img src="/Image/icons/Main Button Left.png" alt="" />
             </div>
-            <div className="right-btn" onClick={handleNextImage}>
+            <div className={NewsDetail.rightBtn} onClick={handleNextImage}>
               <img src="/Image/icons/Main Button.png" alt="" />
             </div>
           </div>

@@ -1,14 +1,17 @@
 import { IProject } from "@/interfaces/types";
-import { url } from "inspector";
 import { GetServerSideProps, NextPage } from "next";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useContext, useState } from "react";
+import globalStyle from "@/styles/globalStyles.module.scss";
+import project from "@/styles/Projects.module.scss";
+import { accesibilityContext } from "@/context/accesibilityContext";
 
 interface Props {
   data: IProject[];
 }
 
 const Projects: NextPage<Props> = ({ data }) => {
+  const { textSize } = useContext(accesibilityContext);
   const [currentUncompletedPage, setCurrentUncompletedPage] = useState(1);
   const [activeUncompletedButton, setactiveUncompletedButton] = useState(1);
   const [currentCompletedPage, setCompletedPage] = useState(1);
@@ -40,16 +43,20 @@ const Projects: NextPage<Props> = ({ data }) => {
   };
   return (
     <>
-      <section className="projects-first-section section-size py-5">
-        <h2 className="XXL">Проекти</h2>
-        <div className="wrapper-size">
-          <h3 className="XL">Тековни</h3>
-          <div className="grid section-size py-5">
+      <section className={project.projectPage}>
+        <h2 className={textSize ? globalStyle.XLText : globalStyle.LText}>
+          Проекти
+        </h2>
+        <div className={project.wrapper}>
+          <h3 className={textSize ? globalStyle.LText : globalStyle.MText}>
+            Тековни
+          </h3>
+          <div className={project.grid}>
             {uncompletedChunk?.map((el) => (
               <Link
                 key={el.id}
                 href={`/projects/${el.id}`}
-                className="grid-item"
+                className={project.gridItem}
                 style={{ backgroundImage: `url("${el.image}")` }}
               >
                 <div className="info">{el.title}</div>
@@ -78,22 +85,24 @@ const Projects: NextPage<Props> = ({ data }) => {
           </div>
         </div>
       </section>
-      <section className="projects-second-section section-size py-5">
-        <div className="wrapper-size">
-          <h3>Завршени</h3>
-          <div className="grid section-size py-5">
+      <section className={project.secondProjectSection}>
+        <div className={project.wrapper}>
+          <h3 className={textSize ? globalStyle.LText : globalStyle.MText}>
+            Завршени
+          </h3>
+          <div className={project.grid}>
             {CompletedChunk?.map((el) => (
               <Link
                 key={el.id}
                 href={`/projects/${el.id}`}
-                className="grid-item"
+                className={project.gridItem}
                 style={{ backgroundImage: `url("${el.image}")` }}
               >
                 <div className="info">{el.title}</div>
               </Link>
             ))}
           </div>
-          <div className="d-flex">
+          <div>
             {Array.from({
               length: Math.ceil(completed.length / completedItemsNumber),
             }).map((_, index) => (

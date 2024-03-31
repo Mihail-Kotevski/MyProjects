@@ -1,0 +1,64 @@
+@import "/src/styles/utilities/mixins";
+
+.XLText {
+  @include XL-Text;
+}
+
+.LText {
+  @include L-Text;
+}
+.MText {
+  @include M-Text;
+}
+.SText {
+  @include S-Text;
+}
+.XSText {
+  @include XS-Text;
+}
+
+.bgColorOrange {
+  @include orange;
+}
+.bgColorOrangeContrast {
+  @include orange-contrast;
+}
+
+.redColor {
+  @include redColor;
+}
+
+.redColorContrast {
+  @include redColorContrast;
+}
+
+.bgRed {
+  @include red;
+}
+
+.bgWhite {
+  @include bgWhite;
+}
+
+.purpleBg {
+  @include prupleBg;
+}
+
+.redBgContrast {
+  @include red-contrast;
+}
+
+.BTNText {
+  @include BTN;
+}
+
+.BTNTextBigger {
+  @include BTN-Larger;
+}
+
+.NumText {
+  @include NUM-SIZE;
+}
+.NumTextBigger {
+  @include NUM-SIZE-BIGGER;
+}

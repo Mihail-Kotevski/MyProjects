@@ -1,8 +1,9 @@
-import { INews, ISingleNews } from "@/interfaces/types";
+import { ISingleNews } from "@/interfaces/types";
 import { GetServerSideProps, NextPage } from "next";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
+import NewsStyle from "@/styles/News.module.scss";
 
 interface Props {
   data: ISingleNews[];
@@ -29,15 +30,15 @@ const NewsletterTwo: NextPage<Props> = ({ data }) => {
 
   return (
     <>
-      <section className="newsletter-two-section section-size">
+      <section className={NewsStyle.topNews}>
         <h1 className="header XXL">Топ Новости</h1>
-        <div className="wrapper wrapper-size">
+        <div className={NewsStyle.wrapper}>
           {topNews.map((el) => (
-            <div key={el.id} className="card-cont">
-              <div className="content-wrapper">
+            <div key={el.id} className={NewsStyle.newsCard}>
+              <div className={NewsStyle.image}>
                 <img src={el.image} alt="" />
               </div>
-              <div className="text-content-wrapper">
+              <div className={NewsStyle.text}>
                 <span>{el.date}</span>
                 <h3>{el.title}</h3>
                 <p className="S">{el.desc}</p>
@@ -49,14 +50,14 @@ const NewsletterTwo: NextPage<Props> = ({ data }) => {
           ))}
         </div>
       </section>
-      <section className="newsletter-two-section-two section-size">
-        <div className="wrapper wrapper-size">
-          <div className="content-wrapper section-size">
+      <section className={NewsStyle.oldNews}>
+        <div className={NewsStyle.wrapper}>
+          <div className={NewsStyle.content}>
             <h2 className="XL">ОСТАНАТИ НОВОСТИ</h2>
-            <div className="content section-size">
+            <div className={NewsStyle.wrapper}>
               {currentNews.map((el) => (
-                <div key={el.id} className="card-div">
-                  <div className="text-content-wrapper">
+                <div key={el.id} className={NewsStyle.oldNewsCard}>
+                  <div className={NewsStyle.text}>
                     <span className="M">{el.date}</span>
                     <h3 className="L">{el.title}</h3>
                     <p className="S">{el.desc}</p>
@@ -68,26 +69,24 @@ const NewsletterTwo: NextPage<Props> = ({ data }) => {
               ))}
             </div>
           </div>
-        </div>
-      </section>
-      <section className="newsletter-two-section-pages section-size">
-        <div className="wrapper wrapper-size">
-          {Array.from({
-            length: Math.ceil(data.length / itemsNumber),
-          }).map((_, index) => (
-            <span
-              className={`${
-                activeButton === index + 1 ? "active-pagination-btn" : ""
-              }`}
-              key={index}
-              onClick={() => {
-                handlePageChange(index + 1);
-                setactiveButton(index + 1);
-              }}
-            >
-              {index + 1}
-            </span>
-          ))}
+          <div className={NewsStyle.pagination}>
+            {Array.from({
+              length: Math.ceil(data.length / itemsNumber),
+            }).map((_, index) => (
+              <span
+                className={`${
+                  activeButton === index + 1 ? NewsStyle.active : ""
+                }`}
+                key={index}
+                onClick={() => {
+                  handlePageChange(index + 1);
+                  setactiveButton(index + 1);
+                }}
+              >
+                {index + 1}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
     </>

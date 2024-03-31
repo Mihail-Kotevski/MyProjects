@@ -1,52 +1,75 @@
 import { NextPage } from "next";
 import { useRouter } from "next/router";
+import services from "@/styles/Services.module.scss";
+import { useContext } from "react";
+import globalStyle from "@/styles/globalStyles.module.scss";
+import { accesibilityContext } from "@/context/accesibilityContext";
 
 const Service: NextPage = () => {
+  const { textSize } = useContext(accesibilityContext);
   const { query, push } = useRouter();
 
   return (
     <>
-      <section className="service-page section-size py-5">
-        <div className="wrapper wrapper-size py-5">
-          <div className="header">
-            <div className="menu py-5">
-              <div className="buttons">
+      <section className={services.servicesPage}>
+        <div className={services.wrapper}>
+          <div className={services.header}>
+            <div className={services.menu}>
+              <div className={services.buttons}>
                 <div
-                  className="button"
+                  className={services.button}
                   onClick={() => {
                     push("/services?category=01");
                   }}
                 >
-                  <p className="M">Центар Крикни</p>
+                  <p
+                    className={textSize ? globalStyle.LText : globalStyle.MText}
+                  >
+                    Центар Крикни
+                  </p>
                   <div
                     className={
-                      query.category === "01" ? "active-btn" : "button-unactive"
+                      query.category === "01"
+                        ? services.activeBtn
+                        : services.unactiveBtn
                     }
                   ></div>
                 </div>
                 <div
-                  className="button"
+                  className={services.button}
                   onClick={() => {
                     push("/services?category=02");
                   }}
                 >
-                  <p className="M">Независни станбени единици</p>
+                  <p
+                    className={textSize ? globalStyle.LText : globalStyle.MText}
+                  >
+                    Независни станбени единици
+                  </p>
                   <div
                     className={
-                      query.category === "02" ? "active-btn" : "button-unactive"
+                      query.category === "02"
+                        ? services.activeBtn
+                        : services.unactiveBtn
                     }
                   ></div>
                 </div>
                 <div
-                  className="button"
+                  className={services.button}
                   onClick={() => {
                     push("/services?category=03");
                   }}
                 >
-                  <p className="M">Советувалиште</p>
+                  <p
+                    className={textSize ? globalStyle.LText : globalStyle.MText}
+                  >
+                    Советувалиште
+                  </p>
                   <div
                     className={
-                      query.category === "03" ? "active-btn" : "button-unactive"
+                      query.category === "03"
+                        ? services.activeBtn
+                        : services.unactiveBtn
                     }
                   ></div>
                 </div>
@@ -55,11 +78,17 @@ const Service: NextPage = () => {
           </div>
 
           {query.category === "01" ? (
-            <div>
-              <div className="content section-size">
-                <div className="text">
-                  <h2 className="pb-4 XL">Центар Крикни</h2>
-                  <p className="S">
+            <div className={services.contentWrap}>
+              <div className={services.content}>
+                <div className={services.text}>
+                  <h2
+                    className={textSize ? globalStyle.LText : globalStyle.MText}
+                  >
+                    Центар Крикни
+                  </h2>
+                  <p
+                    className={textSize ? globalStyle.MText : globalStyle.SText}
+                  >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Ipsa sunt nobis molestiae cupiditate accusamus repellat
                     veritatis omnis! Debitis blanditiis nam corporis. Provident
@@ -76,23 +105,24 @@ const Service: NextPage = () => {
                     exercitationem quod eos laborum vitae!
                   </p>
                 </div>
-                <div className="gallery"></div>
-                <p className="L">Галерија со Активности</p>
+                <div className={services.gallery}>
+                  <p className="L">Галерија со Активности</p>
+                </div>
               </div>
-              <div className="gallery">
-                <div className="cube">
+              <div className={services.gallery}>
+                <div className={services.cube}>
                   <img src="/Image/Rectangle 11.png" alt="" />
                 </div>
-                <div className="rectangle">
+                <div className={services.rectangle}>
                   <img src="/Image/centar krikni 2 4.png" alt="" />
                 </div>
-                <div className="cube">
+                <div className={services.cube}>
                   <img src="/Image/Rectangle 21.png" alt="" />
                 </div>
-                <div className="cube">
+                <div className={services.cube}>
                   <img src="/Image/Rectangle 22.png" alt="" />
                 </div>
-                <div className="cube">
+                <div className={services.cube}>
                   <img src="/Image/Rectangle 23.png" alt="" />
                 </div>
               </div>
@@ -101,8 +131,14 @@ const Service: NextPage = () => {
             <div>
               <div className="content section-size">
                 <div className="text">
-                  <h2 className="pb-4 XL">Независни станбени единици</h2>
-                  <p className="S">
+                  <h2
+                    className={textSize ? globalStyle.LText : globalStyle.MText}
+                  >
+                    Центар Крикни
+                  </h2>
+                  <p
+                    className={textSize ? globalStyle.MText : globalStyle.SText}
+                  >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Ipsa sunt nobis molestiae cupiditate accusamus repellat
                     veritatis omnis! Debitis blanditiis nam corporis. Provident
@@ -144,8 +180,14 @@ const Service: NextPage = () => {
             <div>
               <div className="content section-size">
                 <div className="text">
-                  <h2 className="pb-4 XL">Советувалиште</h2>
-                  <p className="S">
+                  <h2
+                    className={textSize ? globalStyle.LText : globalStyle.MText}
+                  >
+                    Центар Крикни
+                  </h2>
+                  <p
+                    className={textSize ? globalStyle.MText : globalStyle.SText}
+                  >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Ipsa sunt nobis molestiae cupiditate accusamus repellat
                     veritatis omnis! Debitis blanditiis nam corporis. Provident

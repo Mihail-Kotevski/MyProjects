@@ -1,6 +1,7 @@
 import { INews, INewsMonth } from "@/interfaces/types";
 import { GetServerSideProps, NextPage } from "next";
 import Link from "next/link";
+import NewsletterStyle from "@/styles/Newsletter.module.scss";
 
 interface Props {
   data: INews;
@@ -9,16 +10,16 @@ interface Props {
 const Newsletter: NextPage<Props> = ({ data }) => {
   return (
     <>
-      <section className="newsletter-banner section-size">
+      <section className={NewsletterStyle.newsletterBanner}>
         <p>МЕСЕЧЕН</p>
-        <p className="newsletter">БИЛТЕН</p>
+        <p>БИЛТЕН</p>
       </section>
-      <section className="news-section section-size">
-        <div className="wrapper wrapper-size">
-          <div className="vl"></div>
+      <section className={NewsletterStyle.newsletterContent}>
+        <div className={NewsletterStyle.wrapper}>
+          <div className={NewsletterStyle.vl}></div>
           {data.months.map((el) => (
-            <div key={el.id} className="content">
-              <div className="content-wrapper">
+            <div key={el.id} className={NewsletterStyle.content}>
+              <div className={NewsletterStyle.wrapper}>
                 <div>
                   <div>
                     <h2 className="XL">
@@ -34,7 +35,11 @@ const Newsletter: NextPage<Props> = ({ data }) => {
                     </Link>
                   </div>
                 </div>
-                <img src="/Image/icons/red circle.png" alt="" className="dot" />
+                <img
+                  src="/Image/icons/red circle.png"
+                  alt=""
+                  className={NewsletterStyle.dot}
+                />
               </div>
             </div>
           ))}
