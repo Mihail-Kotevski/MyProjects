@@ -28,12 +28,13 @@ const App = () => {
     },
     {
       id: 3,
-      name: "KotevskiDev",
+      name: "Portfolio",
       slug: "kotevskiDev",
-      description: "",
+      description:
+        "This page was designed and coded by me. Here, you'll find a collection of some of my projects, a summary, and my contact information. This site serves as a portfolio to showcase my work and to provide an easy way for you to get in touch with me. ",
       tools: ["React.JS", "SCSS"],
       image: "/public/images/projects/KotevskiDev.png",
-      github: "https://github.com/Mihail-Kotevski/MyProjects/tree/Restaurant",
+      github: "https://github.com/Mihail-Kotevski/MyProjects/tree/Portfolio",
     },
     {
       id: 4,

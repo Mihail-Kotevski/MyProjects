@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
         <div className="content">
           <div className="email">
             <div className="container">
-              <h3>Contact Me</h3>
+              <h3>Contact me</h3>
               <form
                 action="https://formsubmit.co/mihail05kotevski@gmail.com"
                 onSubmit={submitHandler}
