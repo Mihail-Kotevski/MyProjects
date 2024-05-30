@@ -1,0 +1,89 @@
+.banner {
+  width: 100%;
+  background-color: #181818;
+  overflow: hidden;
+  position: relative;
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    overflow: hidden;
+    transform: rotate(-35deg);
+    left: -200;
+    .box {
+      display: flex;
+      position: relative;
+      width: calc(100% + 400px);
+      justify-content: center;
+      align-items: center;
+      -webkit-box-reflect: below 1px -webkit-gradient(linear, left top, left
+            bottom, from(transparent), to(rgba(255, 255, 255, 0.5)));
+      animation: animateSurface 1.5s ease-in-out infinite;
+      .cube {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        background-color: #00ffff;
+        box-shadow: 0 0 5px rgb(0, 255, 255, 1), 0 0 25px rgb(0, 255, 255, 1),
+          0 0 50px rgb(0, 255, 255, 1), 0 0 100px rgb(0, 255, 255, 1);
+        transform-origin: bottom right;
+        animation: animate 1.5s ease-in-out infinite;
+      }
+    }
+  }
+  .quote {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00ffff;
+    background-color: #0004;
+    padding: 20px;
+    p {
+      font-size: 25px;
+    }
+  }
+}
+
+@keyframes animateSurface {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-200px);
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(90deg);
+  }
+  65% {
+    transform: rotate(85deg);
+  }
+  70% {
+    transform: rotate(90deg);
+  }
+  75% {
+    transform: rotate(87.5deg);
+  }
+  80% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+@media (max-width: 425px) {
+  .banner {
+    .quote {
+      width: 90%;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Store",
+      "slug": "store",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "Restaurant",
+      "slug": "restaurant",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "name": "KotevskiDev",
+      "slug": "kotevskiDev",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "name": "Krik",
+      "slug": "krik",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": 5,
+      "name": "Brainster Labs",
+      "slug": "brainsterLabs",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": 6,
+      "name": "Street Artist",
+      "slug": "streetArtist",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": 7,
+      "name": "KotevskiDev",
+      "slug": "brainsterLabs",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": 6,
+      "name": "Street Artist",
+      "slug": "streetArtist",
+      "description": "",
+      "image": ""
+    }
+  ]
+}

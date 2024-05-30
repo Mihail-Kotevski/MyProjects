@@ -1,0 +1,117 @@
+.footer {
+  width: 100%;
+  background-color: black;
+  padding-top: 4rem;
+  h1 {
+    color: white;
+    font-size: 2.5rem;
+    padding: 2rem 0;
+  }
+  .wrapper {
+    width: 95%;
+    border-radius: 30px 30px 0 0;
+    background-color: #262626;
+    margin: 0 auto;
+    color: white;
+    .content {
+      padding: 1.5rem 0 0 0;
+      width: 70%;
+      margin: 0 auto;
+      .email {
+        width: 80%;
+        margin: 0 auto;
+        .container {
+          width: 70%;
+          margin: 0 auto;
+          text-align: center;
+          h3 {
+            font-size: 1.5em;
+            padding-bottom: 0.8rem;
+          }
+          form {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            input {
+              outline: none;
+              border: none;
+              font-size: 18px;
+              border-radius: 20px;
+              padding: 0.5rem;
+              color: white;
+              background-color: #1a1a1a;
+              &::placeholder {
+                color: white;
+                padding-left: 0.5rem;
+              }
+            }
+            textarea {
+              outline: none;
+              border: none;
+              font-size: 18px;
+              border-radius: 15px;
+              padding: 0.4rem;
+              resize: none;
+              color: white;
+              background-color: #1a1a1a;
+              &::placeholder {
+                color: white;
+                padding-left: 0.5rem;
+              }
+            }
+            button {
+              width: 25%;
+              padding: 0.5rem;
+              font-size: 18px;
+              background-color: black;
+              color: white;
+              outline: none;
+              border: none;
+              margin: 0 auto;
+              border-radius: 15px;
+              &:hover {
+                background-color: rgb(0, 187, 255);
+                color: black;
+              }
+            }
+          }
+          p {
+            color: greenyellow;
+            font-size: 17px;
+          }
+        }
+      }
+      .social {
+        padding: 1rem;
+        display: flex;
+        width: fit-content;
+        background-color: #0004;
+        justify-content: center;
+        gap: 15px;
+        border-radius: 20px;
+        margin: 1rem auto;
+      }
+    }
+    .page-info {
+      background-color: rgb(136, 26, 26);
+      color: white;
+      width: 100%;
+      padding: 0.3rem;
+  color: #eceae2;
+      text-align: center;
+      font-size: 1.1em;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .footer {
+    .wrapper {
+      .content {
+        padding: 1.5rem 0 0 0;
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
