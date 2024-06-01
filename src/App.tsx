@@ -23,7 +23,7 @@ const App = () => {
       description:
         "This is a platform where users can explore a variety of dining options, receive suggestions, leave feedback about the chosen restaurant, and save their choice to favorites.This user-friendly interface makes it easy to discover new restaurants and leave feedback.",
       tools: ["React.JS", "SCSS"],
-      image: "public/images/projects/Restaurant.png",
+      image: "images/projects/Restaurant.png",
       github: "https://github.com/Mihail-Kotevski/MyProjects/tree/Restaurant",
     },
     {
