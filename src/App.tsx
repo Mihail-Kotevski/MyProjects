@@ -64,7 +64,7 @@ const App = () => {
       description:
         "This project was made to create web-space for the street artists to help them keep track of their income, and have a space on the web where they can showcase their masterpieces.",
       tools: ["JavaScript", "CSS", "Bootstrap"],
-      image: "../public/images/projects/Street Artist.png",
+      image: "/dist/images/projects/Street Artist.png",
       github: "https://github.com/Mihail-Kotevski/MyProjects/tree/StreetArtist",
     },
   ];
