@@ -21,7 +21,7 @@ const About: React.FC = () => {
           <p className="more">SCROLL FOR MORE</p>
         </div>
         <div className="photo">
-          <img src="/public/images/profile img.jpg" alt="" />
+          <img src="/images/profile img.jpg" alt="" />
         </div>
       </div>
     </div>
