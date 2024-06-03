@@ -1,4 +1,4 @@
-import "../style/banner.scss";
+import "../style/_banner.scss";
 
 const Banner: React.FC = () => {
   return (

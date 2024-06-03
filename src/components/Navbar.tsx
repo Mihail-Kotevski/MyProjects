@@ -1,6 +1,6 @@
 // import { useState } from "react";
 import { Link } from "react-router-dom";
-import "../style/Navbar.scss";
+import "../style/_navbar.scss";
 import { useEffect, useState } from "react";
 
 const Navbar: React.FC = () => {

@@ -1,4 +1,4 @@
-import "../style/projects.scss";
+import "../style/_projects.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
