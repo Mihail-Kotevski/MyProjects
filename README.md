@@ -1,2 +1,2 @@
 # MyProjects
-Projects i have worked on
+In this GitHub repository i have uploaded some of the projects i have worked on.
