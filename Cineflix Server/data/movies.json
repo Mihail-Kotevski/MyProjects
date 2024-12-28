@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Inception",
+    "description": "A mind-bending movie about dreams within dreams.",
+    "duration": 148,
+    "rating": 8.8,
+    "totalRating": 2100000,
+    "releaseYear": 2010,
+    "releaseDate": "2010-07-16",
+    "genres": ["Science Fiction", "Action", "Thriller"],
+    "directors": ["Christopher Nolan"],
+    "coverImage": "inception.jpg",
+    "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+    "price": 9.99
+  },
+  {
+    "name": "Harry Potter",
+    "description": "A movie of magic",
+    "duration": 199,
+    "rating": 8.8,
+    "totalRating": 2100000,
+    "releaseYear": 2007,
+    "releaseDate": "2007-07-16",
+    "genres": ["Adventure", "Action", "Thriller"],
+    "directors": ["Christopher Nolan"],
+    "coverImage": "inception.jpg",
+    "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+    "price": 9.99
+  },
+  {
+    "name": "Lord of the rings",
+    "description": "A mind-bending movie about dreams within dreams.",
+    "duration": 148,
+    "rating": 8.8,
+    "totalRating": 2100000,
+    "releaseYear": 2010,
+    "releaseDate": "2010-07-16",
+    "genres": ["Science Fiction", "Action", "Thriller"],
+    "directors": ["Christopher Nolan"],
+    "coverImage": "inception.jpg",
+    "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+    "price": 9.99
+  },
+  {
+    "name": "The Hobbit",
+    "description": "A mind-bending movie about dreams within dreams.",
+    "duration": 148,
+    "rating": 8.8,
+    "totalRating": 2100000,
+    "releaseYear": 2010,
+    "releaseDate": "2010-07-16",
+    "genres": ["Science Fiction", "Action", "Thriller"],
+    "directors": ["Christopher Nolan"],
+    "coverImage": "inception.jpg",
+    "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+    "price": 9.99
+  },
+  {
+    "name": "Jumanji",
+    "description": "A mind-bending movie about dreams within dreams.",
+    "duration": 148,
+    "rating": 8.8,
+    "totalRating": 2100000,
+    "releaseYear": 2010,
+    "releaseDate": "2010-07-16",
+    "genres": ["Science Fiction", "Action", "Thriller"],
+    "directors": ["Christopher Nolan"],
+    "coverImage": "inception.jpg",
+    "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+    "price": 9.99
+  }
+]
