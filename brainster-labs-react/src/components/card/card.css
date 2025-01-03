@@ -1,0 +1,43 @@
+.card {
+  width: 28%;
+  padding: 0px 0px 20px 0;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+}
+.card img {
+  width: 100%;
+}
+.card .wrap-content {
+}
+.card .wrap-content .content {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 90%;
+}
+.card .wrap-content .content span {
+  margin: 10px 0 0 0;
+}
+.card .wrap-content .content .title {
+  margin: 10px 0 0 0;
+}
+.card .wrap-content .content .academy {
+  background-color: yellow;
+  padding: 5px 10px;
+  font-weight: bold;
+  width: fit-content;
+  margin: 0 0 0 10px;
+}
+.card .wrap-content .content .date {
+  font-weight: bold;
+}
+.card .wrap-content .content .btn {
+  margin-left: auto;
+  width: fit-content;
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+}

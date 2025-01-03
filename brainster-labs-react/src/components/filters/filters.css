@@ -1,0 +1,30 @@
+.filters {
+  width: 100%;
+  display: flex;
+  background-color: gray;
+  color: white;
+  height: 17vh;
+}
+
+.filters .filter {
+  width: 33.333%;
+  padding: 10px;
+  display: flex;
+}
+.filters .filter:nth-child(1),.filter:nth-child(2) {
+  border-right: 1px solid rgb(0, 0, 0);
+}
+.filters .filter .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.filters .filter p {
+  margin: auto 0;
+}
+.filters .filter img {
+  width: 30px;
+  height: 30px;
+  margin: auto 0;
+}
