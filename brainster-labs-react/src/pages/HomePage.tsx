@@ -3,6 +3,7 @@ import Header from "../components/header/Header.tsx";
 import Banner from "../components/banner/Banner.tsx";
 import Filters from "../components/filters/Filters.tsx";
 import CardSection from "../components/cardsSection/CardSection.tsx";
+import Footer from "../components/footer/Footer.tsx";
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
       <Banner />
       <Filters />
       <CardSection />
+      <Footer />
     </>
   );
 }
