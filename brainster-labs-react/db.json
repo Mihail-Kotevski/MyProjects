@@ -1,0 +1,274 @@
+{
+  "academies": [
+    {
+      "id": 1,
+      "slug": "coding",
+      "name": "Coding academy",
+      "title": "Academy for coding",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 2,
+      "slug": "coding",
+      "name": "Coding academy",
+      "title": "Academy for coding",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 3,
+      "slug": "coding",
+      "name": "Coding academy",
+      "title": "Academy for coding",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 4,
+      "slug": "coding",
+      "name": "Coding academy",
+      "title": "Academy for coding",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 5,
+      "slug": "coding",
+      "name": "Coding academy",
+      "title": "Academy for coding",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 6,
+      "slug": "coding",
+      "name": "Coding academy",
+      "title": "Academy for coding",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 7,
+      "slug": "coding",
+      "name": "Coding academy",
+      "title": "Academy for coding",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 8,
+      "slug": "coding",
+      "name": "Coding academy",
+      "title": "Academy for coding",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 9,
+      "slug": "coding",
+      "name": "Coding academy",
+      "title": "Academy for coding",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 10,
+      "slug": "coding",
+      "name": "Coding academy",
+      "title": "Academy for coding",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 11,
+      "slug": "data-science",
+      "name": "Data-science",
+      "title": "Academy for data-science",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 12,
+      "slug": "data-science",
+      "name": "Data-science",
+      "title": "Academy for data-science",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 13,
+      "slug": "data-science",
+      "name": "Data-science",
+      "title": "Academy for data-science",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 14,
+      "slug": "data-science",
+      "name": "Data-science",
+      "title": "Academy for data-science",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 15,
+      "slug": "data-science",
+      "name": "Data-science",
+      "title": "Academy for data-science",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 16,
+      "slug": "data-science",
+      "name": "Data-science",
+      "title": "Academy for data-science",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 17,
+      "slug": "data-science",
+      "name": "Data-science",
+      "title": "Academy for data-science",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 18,
+      "slug": "data-science",
+      "name": "Data-science",
+      "title": "Academy for data-science",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 19,
+      "slug": "data-science",
+      "name": "Data-science",
+      "title": "Academy for data-science",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 20,
+      "slug": "data-science",
+      "name": "Data-science",
+      "title": "Academy for data-science",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 21,
+      "slug": "marketing",
+      "name": "Marketing data-science",
+      "title": "Academy for marketing",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 22,
+      "slug": "marketing",
+      "name": "Marketing ",
+      "title": "Academy for marketing",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 23,
+      "slug": "marketing",
+      "name": "Marketing academy",
+      "title": "Academy for marketing",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 24,
+      "slug": "marketing",
+      "name": "Marketing academy",
+      "title": "Academy for marketing",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 25,
+      "slug": "marketing",
+      "name": "Marketing academy",
+      "title": "Academy for marketing",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 26,
+      "slug": "marketing",
+      "name": "Marketing academy",
+      "title": "Academy for marketing",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 27,
+      "slug": "marketing",
+      "name": "Marketing academy",
+      "title": "Academy for marketing",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 28,
+      "slug": "marketing",
+      "name": "Marketing academy",
+      "title": "Academy for marketing",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 29,
+      "slug": "marketing",
+      "name": "Marketing marketing",
+      "title": "Academy for coding",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    },
+    {
+      "id": 30,
+      "slug": "marketing",
+      "name": "Marketing marketing",
+      "title": "Academy for coding",
+      "desc": "lorem ipsin del deloren mor gor fon delar si es ton",
+      "image": "src",
+      "date": "12.5.2021"
+    }
+  ]
+}
