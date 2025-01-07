@@ -29,6 +29,7 @@ export default function CardSection(Props) {
           />
         ))}
       </div>
+      <button className="show-more">Show more</button>
     </div>
   );
 }

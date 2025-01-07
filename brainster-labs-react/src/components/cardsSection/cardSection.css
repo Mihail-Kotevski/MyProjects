@@ -2,6 +2,7 @@
   width: 100%;
   background-color: yellow;
   padding: 30px 0;
+  text-align: center;
 }
 
 .card-section .content {
@@ -10,4 +11,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  text-align: start;
+}
+
+.card-section .show-more {
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  background-color: red;
+  color: white;
 }

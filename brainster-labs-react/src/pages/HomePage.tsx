@@ -28,11 +28,9 @@ export default function HomePage() {
 
   return (
     <>
-      <Header />
       <Banner />
       <Filters filters={filters} filterBy={filter} />
       <CardSection data={data} />
-      <Footer />
     </>
   );
 }
