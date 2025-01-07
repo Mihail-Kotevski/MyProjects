@@ -9,10 +9,12 @@ import { useState, useEffect } from "react";
 export default function HomePage() {
   const [data, setData] = useState<any>([]);
   const [filter, setFilter] = useState<string>("");
-  // const [filterData, setFilterData] = useState<any>([]);
+  const [itemsNumber, setItemsNumber] = useState<number>(6);
 
   useEffect(() => {
-    fetch(`http://localhost:8000/academies?slug=${filter}`)
+    fetch(
+      `http://localhost:8000/academies?slug=${filter}&_limit=${itemsNumber}`
+    )
       .then((res) => res.json())
       .then((res) => {
         setData(res);
@@ -20,17 +22,22 @@ export default function HomePage() {
       .catch((err) => {
         console.log(err);
       });
-  }, [filter]);
+  }, [filter, itemsNumber]);
 
   function filters(arg: string) {
     setFilter(arg === filter ? "" : arg);
+  }
+
+  function showMore(arg: string) {
+    setItemsNumber((prevCount) => prevCount + 6);
+    console.log("im clicked");
   }
 
   return (
     <>
       <Banner />
       <Filters filters={filters} filterBy={filter} />
-      <CardSection data={data} />
+      <CardSection items={data} showMore={showMore} />
     </>
   );
 }

@@ -2,17 +2,20 @@ import React from "react";
 import "../cardsSection/cardSection.css";
 import Card from "../card/Card.tsx";
 
-interface Props {
-  date: String;
-  desc: String;
-  id: String;
-  image: String;
-  name: String;
-  slug: String;
-  title: String;
+interface props {
+  items: {
+    date: String;
+    desc: String;
+    id: String;
+    image: String;
+    name: String;
+    slug: String;
+    title: String;
+  };
+  showMore: () => void;
 }
-export default function CardSection(Props) {
-  let data = Props.data;
+export default function CardSection({ items, showMore }) {
+  let data = items;
   console.log(data);
   return (
     <div className="card-section">
@@ -29,7 +32,9 @@ export default function CardSection(Props) {
           />
         ))}
       </div>
-      <button className="show-more">Show more</button>
+      <button className="show-more" onClick={() => showMore()}>
+        Show more
+      </button>
     </div>
   );
 }
