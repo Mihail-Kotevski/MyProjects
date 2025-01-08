@@ -1,4 +1,50 @@
 .form {
   background-color: yellow;
   width: 100%;
+  text-align: center;
+  padding: 80px 0;
+}
+.form h1 {
+  margin: 0;
+  font-size: 50px;
+  padding: 40px 0;
+}
+.form form {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+
+.form form div {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.form form div label {
+  font-weight: 600;
+  font-size: 17px;
+}
+.form form div input {
+  padding: 13px;
+  margin: 3px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.form form div .button-label {
+  visibility: hidden;
+}
+.form form div button {
+  padding: 13px;
+  background-color: red;
+  font-weight: 600;
+  font-size: 17px;
+  margin: 3px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
