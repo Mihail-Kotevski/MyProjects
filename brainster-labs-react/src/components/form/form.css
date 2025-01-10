@@ -1,5 +1,5 @@
 .form {
-  background-color: yellow;
+  background-color: #fcd232;
   width: 100%;
   text-align: center;
   padding: 80px 0;
@@ -29,6 +29,7 @@
 }
 .form form div input {
   padding: 13px;
+  border: none;
   margin: 3px;
   border-radius: 5px;
   margin-bottom: 15px;
@@ -38,7 +39,7 @@
 }
 .form form div button {
   padding: 13px;
-  background-color: red;
+  background-color: #ff1300;
   font-weight: 600;
   font-size: 17px;
   margin: 3px;

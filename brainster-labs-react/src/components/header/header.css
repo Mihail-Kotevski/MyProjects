@@ -1,7 +1,10 @@
 .nav-bar {
   width: 100%;
-  background-color: yellow;
+  background-color: #fcd232;
   padding: 20px 0;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
 .nav-bar .content-wrapper {
@@ -20,6 +23,8 @@
   flex-direction: column;
   justify-content: center;
   font-size: 13px;
+  text-decoration: none;
+  color: black;
 }
 
 .nav-bar .content-wrapper .content img {
@@ -42,9 +47,10 @@ span {
 }
 
 .nav-bar .content-wrapper .content .btn {
-  background-color: red;
+  background-color: #ff1300;
   padding: 10px 25px;
   margin: auto 0;
+  text-decoration: none;
   color: white;
   font-size: 18px;
   border-radius: 5px;
