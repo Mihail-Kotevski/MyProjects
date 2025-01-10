@@ -19,6 +19,7 @@ export default function CardSection({ items, showMore }) {
   console.log(data);
   return (
     <div className="card-section">
+      <h1>Projects</h1>
       <div className="content">
         {data.map((el, i) => (
           <Card
