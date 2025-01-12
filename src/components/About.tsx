@@ -17,7 +17,7 @@ const About: React.FC = () => {
             experiences.
           </p>
           <a
-            href="https://drive.google.com/file/d/12K83UeHY9TaCPMoLjle3eMVXYV8-l7Pi/view?usp=sharing"
+            href="https://drive.google.com/file/d/1gRyp4voOr0M3Kd4OHMNU2ijZKkIAbsSd/view"
             target="_blank"
           >
             CV
