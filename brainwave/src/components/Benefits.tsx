@@ -11,7 +11,7 @@ const Benefits = () => {
     <Section
       id="features"
       className=""
-      crosses={undefined}
+      crosses
       crossesOffset=""
       customPaddings={undefined}
     >
